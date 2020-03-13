@@ -9,7 +9,8 @@
 **Availability** : 
 
 **How much time do you plan to spend on your GSOC?**
- I intend to spend about 30
+ I intend to spend about **42** Hours per week  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3NTUxNzIwLC0xNjM0NzYxMjU1XX0=
+eyJoaXN0b3J5IjpbLTI5MjE2Njc3OSw2MTc1NTE3MjAsLTE2Mz
+Q3NjEyNTVdfQ==
 -->
