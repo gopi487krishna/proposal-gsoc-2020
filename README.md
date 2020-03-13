@@ -7,7 +7,9 @@
 **Degree Program** : B.TECH ( Bachelor of Technology )
 **Email** : krishnagopi487@outlook.com
 **Availability** : 
-**How much time do you pl 
+
+**How much time do you plan to spend on your GSOC?**
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTQ4NTg3LC0xNjM0NzYxMjU1XX0=
+eyJoaXN0b3J5IjpbOTM2MDc3NjAyLC0xNjM0NzYxMjU1XX0=
 -->
