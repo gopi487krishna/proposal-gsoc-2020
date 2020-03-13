@@ -26,11 +26,11 @@ I can start working on the project after **10th-15th May 2020** as after **15th 
 During the month of **July** I would request  **2 days** leave as i would have to go for an exhibition along with my team in Bangalore for **MC Afee Scholars Programme**. Other than that I am completely free during the summers and don't have any other commitments as such.
 
 ## Educational Background
-
+I am a 3rd Year undergraduate in Computer Science and Engineering from Dronacharya College of Engineering, Gurgaon Haryana
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzkyMjUwNjgsLTE5MDU1NzY3MTgsMz
-UzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1
-NjgsNjE3NTUxNzIwLC0xNjM0NzYxMjU1XX0=
+eyJoaXN0b3J5IjpbLTYyNzAzNjE4MywtMTkwNTU3NjcxOCwzNT
+M1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2
+OCw2MTc1NTE3MjAsLTE2MzQ3NjEyNTVdfQ==
 -->
