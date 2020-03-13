@@ -9,8 +9,8 @@
 **Availability** : 
 
 **How much time do you plan to spend on your GSOC?**
- I intend to spend about **42 Hours** per week *( 6 Hours every day * 7 Days )*  during the **3 Month Period**.  On weekends if required, I can spend more than 6 hours.  Mostly i work during the evening hours from  6:00pm to 11:00pm but during holidays i can work e 
+ I intend to spend about **42 Hours** per week *( 6 Hours every day * 7 Days )*  during the **3 Month Period**.  On weekends if required, I can spend more than 6 hours.  Mostly i work during the evening hours from  6:00pm to 11:00pm but during holidays i can work early in the morning also 3:30 am to 6:00 am 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM0NDM2ODMsNzM5NjQyNTY4LDYxNz
-U1MTcyMCwtMTYzNDc2MTI1NV19
+eyJoaXN0b3J5IjpbNTY2NzI5MTkxLDczOTY0MjU2OCw2MTc1NT
+E3MjAsLTE2MzQ3NjEyNTVdfQ==
 -->
