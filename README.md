@@ -23,13 +23,13 @@ I can start working on the project after **10th-15th May 2020** as after **15th 
 
 **What other factors affect your availability ?**
 
-During the month of **July** I would request  **2 days** leave as i would have to go for an exhibition along with my team in Bangalore for MC Afee Scholars Programme. Other than that I am completely free during the summers and don't have any other commitments as such.
+During the month of **July** I would request  **2 days** leave as i would have to go for an exhibition along with my team in Bangalore for **MC Afee Scholars Programme**. Other than that I am completely free during the summers and don't have any other commitments as such.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTQ1ODc0MSwtMTkwNTU3NjcxOCwzNT
-M1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2
-OCw2MTc1NTE3MjAsLTE2MzQ3NjEyNTVdfQ==
+eyJoaXN0b3J5IjpbLTE2MTY0NTIyNzcsLTE5MDU1NzY3MTgsMz
+UzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1
+NjgsNjE3NTUxNzIwLC0xNjM0NzYxMjU1XX0=
 -->
