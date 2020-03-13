@@ -21,11 +21,11 @@
 
 I can start working on the project after **10th-15th May 2020** as after **15th May** my exams will be over and my 3 month  summer vacation will start by that time, so I will be able to fully concentrate on the project. Also I will require about 1 week's time ( During Community Bonding period or after ) to get to the drawing board with my mentor and design the higher level API from scratch in order to build API of high quality with ample amount of flexibility in it.  I intend to finish the project work on or before **August 10 2020**.
 
-**What other factors affect your availability**
+**What other factors affect your availability ?**
 
-During the month of **July** I would request  **2 days** leave as i would have to go for an exhibition along with my team in Bangalore for MC Afee Scholars Programme. Other than that i don't think 
+During the month of **July** I would request  **2 days** leave as i would have to go for an exhibition along with my team in Bangalore for MC Afee Scholars Programme. Other than that I am completely free during the summers and dont have any other commitments a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjY2MjY3MCwtMTkwNTU3NjcxOCwzNT
-M1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2
-OCw2MTc1NTE3MjAsLTE2MzQ3NjEyNTVdfQ==
+eyJoaXN0b3J5IjpbLTE0NzU0OTcxOTIsLTE5MDU1NzY3MTgsMz
+UzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1
+NjgsNjE3NTUxNzIwLC0xNjM0NzYxMjU1XX0=
 -->
