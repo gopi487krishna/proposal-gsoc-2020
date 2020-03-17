@@ -56,7 +56,9 @@ I am a 3rd Year undergraduate in Computer Science and Engineering from Dronachar
 	 - University Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  : **2 ( Merit List not yet declared but based on Result Gazette)**
 	 - College Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: **2**
 
-During my first and second semester I had scored around 870 and 836 respectively and did not secure any Rank from the univerity or college.
+I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I completed 
+
+ During my first and second semester I had scored around 870 and 836 respectively and did not secure any Rank from the university or college.
 	 
 **Internship/Jobs/Courses Audited**
 
@@ -64,10 +66,13 @@ During my first and second semester I had scored around 870 and 836 respectively
  - I audited Introduction to C++ course from National Programme on Technology Enhanced Learning ( NPTEL ) and was in the 5% toppers category
  - Last summer I also audited a course in Ethical Hacking from Internshala
 
+
+**My Achievements**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3Mjk2NzM4LDk3ODU4NTU2NCwtMTAyNT
-kwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4MiwtNDA4NzIyMjUs
-MTMzODA4NTgxNSwtMTkwNTU3NjcxOCwzNTM1MDQzMjMsLTE2MD
-QyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2OCw2MTc1NTE3MjAs
-LTE2MzQ3NjEyNTVdfQ==
+eyJoaXN0b3J5IjpbLTE4NjMxMjgwMjYsOTc4NTg1NTY0LC0xMD
+I1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3MjIy
+NSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4LDM1MzUwNDMyMywtMT
+YwNDIxNzM3OSw1NjY3MjkxOTEsNzM5NjQyNTY4LDYxNzU1MTcy
+MCwtMTYzNDc2MTI1NV19
 -->
