@@ -56,11 +56,13 @@ I am a 3rd Year undergraduate in Computer Science and Engineering from Dronachar
 	 - University Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  : **2 ( Merit List not yet declared but based on Result Gazette)**
 	 - College Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: **2**
 	 
-**Projects and Internships**
+**My Achivements**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC0xMD
-M2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MDU1NzY3
-MTgsMzUzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5MSw3Mz
-k2NDI1NjgsNjE3NTUxNzIwLC0xNjM0NzYxMjU1XX0=
+eyJoaXN0b3J5IjpbOTc4NTg1NTY0LC0xMDI1OTA5MTQ1LDQxOT
+A0NzY5NSwtMTAzNjE2NDgyLC00MDg3MjIyNSwxMzM4MDg1ODE1
+LC0xOTA1NTc2NzE4LDM1MzUwNDMyMywtMTYwNDIxNzM3OSw1Nj
+Y3MjkxOTEsNzM5NjQyNTY4LDYxNzU1MTcyMCwtMTYzNDc2MTI1
+NV19
 -->
