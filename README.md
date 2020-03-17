@@ -30,10 +30,19 @@ I am a 3rd Year undergraduate in Computer Science and Engineering from Dronachar
 
  - Object Oriented Programming in C++
  - Principles of Operating System
- - 
+ - Digital System Design
+ - Digital Electronics
+ - Theory of Computation
+ - Core Java
+ - Discrete Mathematics 
+ - Computer Architecture and Organization
+ - Data Structures and Algorithms in C++
+ - Microprocessors and Interfacing
+ - Computer Graphics
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzE4NjE1NCwxMzM4MDg1ODE1LC0xOT
+eyJoaXN0b3J5IjpbLTU2NDQzNDAxNCwxMzM4MDg1ODE1LC0xOT
 A1NTc2NzE4LDM1MzUwNDMyMywtMTYwNDIxNzM3OSw1NjY3Mjkx
 OTEsNzM5NjQyNTY4LDYxNzU1MTcyMCwtMTYzNDc2MTI1NV19
 -->
