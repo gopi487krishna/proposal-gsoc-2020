@@ -66,13 +66,17 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
  - I audited Introduction to C++ course from National Programme on Technology Enhanced Learning ( NPTEL ) and was in the 5% toppers category
  - Last summer I also audited a course in Ethical Hacking from Internshala
 
-**Programming Interests and Reason for Contributing to Boost Libraries**
+**Programming Interests**
 
-I have a considerable amount of knowledge in C++ and am quite comfortable working in C++ as C++ has been the daily driver for all my needs ( From last 2 years I have been working more on System Programming Projects than in others ) 
+I have a considerable amount of knowledge in C++ and am quite comfortable working in C++ as C++ has been the daily driver for all my needs ( From last 2 years I have been working more on System Programming Projects than in others ). Also along with C++ I have good proficiency in languages such as C#, Visual Basic,  RUST, Java.
+
+**Reasons for Contributing to Boost Libraries**
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTcwNDYxNSwtMjI2MDYzNDg1LDk3OD
-U4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4
-MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3NjcxOCwzNT
-M1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2
-OCw2MTc1NTE3MjAsLTE2MzQ3NjEyNTVdfQ==
+eyJoaXN0b3J5IjpbODYyNjcwNzgwLC0yMjYwNjM0ODUsOTc4NT
+g1NTY0LC0xMDI1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgy
+LC00MDg3MjIyNSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4LDM1Mz
+UwNDMyMywtMTYwNDIxNzM3OSw1NjY3MjkxOTEsNzM5NjQyNTY4
+LDYxNzU1MTcyMCwtMTYzNDc2MTI1NV19
 -->
