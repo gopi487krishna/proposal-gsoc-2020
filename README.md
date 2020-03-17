@@ -26,7 +26,7 @@ I can start working on the project after **10th-15th May 2020** as after **15th 
 During the month of **July** I would request  **2 days** leave as i would have to go for an exhibition along with my team in Bangalore for **MC Afee Scholars Programme**. Other than that I am completely free during the summers and don't have any other commitments as such.
 
 ## Educational Background
-I am a 3rd Year undergraduate in Computer Science and Engineering from Dronacharya College of Engineering, Gurgaon Haryana. Some of the courses that I have pursued during my first five semesters are :
+I am a 3rd Year undergraduate in Computer Science and Engineering from Dronacharya College of Engineering, Gurgaon Haryana. *Some* of the courses that I have pursued during my first five semesters are :
 
  - Object Oriented Programming in C++
  - Principles of Operating System
@@ -40,9 +40,11 @@ I am a 3rd Year undergraduate in Computer Science and Engineering from Dronachar
  - Microprocessors and Interfacing
  - Computer Graphics
 
+**Academic Performance**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDQzNDAxNCwxMzM4MDg1ODE1LC0xOT
-A1NTc2NzE4LDM1MzUwNDMyMywtMTYwNDIxNzM3OSw1NjY3Mjkx
-OTEsNzM5NjQyNTY4LDYxNzU1MTcyMCwtMTYzNDc2MTI1NV19
+eyJoaXN0b3J5IjpbLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MD
+U1NzY3MTgsMzUzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5
+MSw3Mzk2NDI1NjgsNjE3NTUxNzIwLC0xNjM0NzYxMjU1XX0=
 -->
