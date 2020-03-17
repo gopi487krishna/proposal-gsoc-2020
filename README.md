@@ -76,13 +76,13 @@ C++ is the best language that I have worked on till now and out of curiosity, I 
 
 **Have you done any previous work in this area before or on similar projects?**
 
-Yes, I have been  working on a similar project from quite sometime. The project's name is GML or Generalized Markup Language. It is basically a pseudo programming language with  better human  readability and support for both structuring the data and for writing programs in it. It provides about 80%  performance boost from most XML parsers ( Rapid XML from boost is still 20% faster than us) with a ton of additional features  and has a 70% less file size footprint. A XML file of 100KB would roughly be around 20KB in size in GML. This project recently got selected with 36 other projects  in the MC Afee Scholars Programme from Foundation of Advancement in Education in Research ( FAER)  among a group of 400 participants. Although conceptually the projects are not similar, a lot of technical details related to parsing and storage are similar.  
+Yes, I have been  working on a similar project from quite sometime ( Conceptually different but technically similar ). The project's name is GML (Generalized Markup Language). It is basically a pseudo programming language with  better human  readability and support for both structuring the data and for writing programs in it. It provides about 80%  performance boost from most XML parsers ( Rapid XML from boost is still 20% faster than us but lacks a lot of features ) with a ton of additional features  and has a 80% less file size footprint. A XML file of 100KB would roughly be around 20KB in size in GML. This project recently got selected with 36 other projects  in the MC Afee Scholars Programme from Foundation of Advancement in Education in Research ( FAER)  among a group of 400 participants. Although conceptually the projects are not similar, a lot of technical details related to parsing and storage are similar.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzM2MDAwLDY5MTU2ODk3NSwtNjAyOD
-kyNTUzLDE3NjEwNzQyODYsODYyNjcwNzgwLC0yMjYwNjM0ODUs
-OTc4NTg1NTY0LC0xMDI1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNj
-E2NDgyLC00MDg3MjIyNSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4
-LDM1MzUwNDMyMywtMTYwNDIxNzM3OSw1NjY3MjkxOTEsNzM5Nj
-QyNTY4LDYxNzU1MTcyMCwtMTYzNDc2MTI1NV19
+eyJoaXN0b3J5IjpbLTI3Mjg5MDMxMSw2OTE1Njg5NzUsLTYwMj
+g5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYzNDg1
+LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLTEwMz
+YxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3Njcx
+OCwzNTM1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOT
+Y0MjU2OCw2MTc1NTE3MjAsLTE2MzQ3NjEyNTVdfQ==
 -->
