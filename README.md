@@ -56,15 +56,16 @@ I am a 3rd Year undergraduate in Computer Science and Engineering from Dronachar
 	 - University Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  : **2 ( Merit List not yet declared but based on Result Gazette)**
 	 - College Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: **2**
 
-During my first and second semester i scored around 870 and 8
+During my first and second semester I had scored around 870 and 836 respectively and did not secure any Rank from the univerity or college.
 	 
-**My Achivements**
+**Internship/Jobs/Courses Audited**
 
+ - I organized and mentored Advanced C++ Programming Course 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM4NTQxMjAsOTc4NTg1NTY0LC0xMD
-I1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3MjIy
-NSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4LDM1MzUwNDMyMywtMT
-YwNDIxNzM3OSw1NjY3MjkxOTEsNzM5NjQyNTY4LDYxNzU1MTcy
-MCwtMTYzNDc2MTI1NV19
+eyJoaXN0b3J5IjpbLTY0MjYwNTkxOSw5Nzg1ODU1NjQsLTEwMj
+U5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1
+LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNj
+A0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NTUxNzIw
+LC0xNjM0NzYxMjU1XX0=
 -->
