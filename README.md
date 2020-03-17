@@ -66,10 +66,11 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
  - I audited Introduction to C++ course from National Programme on Technology Enhanced Learning ( NPTEL ) and was in the 5% toppers category
  - Last summer I also audited a course in Ethical Hacking from Internshala
 
-**Programming Interest and 
+**Programming Interests and Reason for Contributing to Boost Libraries**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzkwMjQzMCw5Nzg1ODU1NjQsLTEwMj
+eyJoaXN0b3J5IjpbLTIyNjA2MzQ4NSw5Nzg1ODU1NjQsLTEwMj
 U5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1
 LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNj
 A0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NTUxNzIw
