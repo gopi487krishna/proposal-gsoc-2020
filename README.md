@@ -106,13 +106,20 @@ Develope a small class/function which will be able to read the primary header (P
 
 **Solution**
 Kindly visit  [Fits Reader](https://github.com/gopi487krishna/FITS_primary_header)
-(github repo that hosts the solution for Programming Competency Test ) for instructions and implementation details on how 
+(github repo that hosts the solution for Programming Competency Test ) for instructions and implementation details on how to use the Fits Reader API (README).
+Just to summarize the Fits Reader API can :
+
+ - Read Primary Header of a FITS File
+ - 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzIxNjkxMDgsNzAzMTEyOTMyLC0xOD
-k5NjQxMzY3LDY5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEwNzQy
-ODYsODYyNjcwNzgwLC0yMjYwNjM0ODUsOTc4NTg1NTY0LC0xMD
-I1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3MjIy
-NSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4LDM1MzUwNDMyMywtMT
-YwNDIxNzM3OSw1NjY3MjkxOTEsNzM5NjQyNTY4LDYxNzU1MTcy
-MF19
+eyJoaXN0b3J5IjpbMTgzNDczODA5OCw3MDMxMTI5MzIsLTE4OT
+k2NDEzNjcsNjkxNTY4OTc1LC02MDI4OTI1NTMsMTc2MTA3NDI4
+Niw4NjI2NzA3ODAsLTIyNjA2MzQ4NSw5Nzg1ODU1NjQsLTEwMj
+U5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1
+LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNj
+A0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NTUxNzIw
+XX0=
 -->
