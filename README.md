@@ -68,9 +68,9 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
 
 **Programming Interests and Reason for Contributing to Boost Libraries**
 
-I have a considerable amount of knowledge in C++ and am quite comfortable working in C++ as C++ has been the daily 
+I have a considerable amount of knowledge in C++ and am quite comfortable working in C++ as C++ has been the daily driver for all my needs ( To this date C++ has been the best language that i have ever seen. I can pretty much 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTg3NDEyNTgsLTIyNjA2MzQ4NSw5Nz
+eyJoaXN0b3J5IjpbLTE4MzMzMTE3NzcsLTIyNjA2MzQ4NSw5Nz
 g1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0
 ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMz
 UzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1
