@@ -74,8 +74,9 @@ I have a considerable amount of knowledge in C++ and am quite comfortable workin
 C++ is the best language that I have worked on till now and out of curiosity, I wanted to know how the libraries and new features were introduced in the C++ language. This is when I was introduced to boost libraries for C++. I learned that Boost wrote code that was exceptional in quality and performance and has become the gold class industry standard for libraries in the C++ language. Along with that I also got to know that most of the features in C++ came from the boost libraries that had been written several years ago (2001,2002,2003). From that onwards, I became a big fan of Boost and always wanted to contribute to boost and someday have my own libraries in the boost and C++ standard itself. Also, I saw the real power of Open Source from boost. I believe that making a project open source and freeware not only makes it free for the people but also improves the quality of the code drastically.  This the main reason why I want to contribute to "boost" libraries.
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODA1NDE3OSwxNzYxMDc0Mjg2LDg2Mj
+eyJoaXN0b3J5IjpbMTUwNzA1NjY1NywxNzYxMDc0Mjg2LDg2Mj
 Y3MDc4MCwtMjI2MDYzNDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0
 NSw0MTkwNDc2OTUsLTEwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzOD
 A4NTgxNSwtMTkwNTU3NjcxOCwzNTM1MDQzMjMsLTE2MDQyMTcz
