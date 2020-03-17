@@ -93,9 +93,10 @@ Even after the **GSOC** period, I will continue to contribute to the **boost. As
 
 **What software development environments are you most familiar with (Visual Studio, Eclipse, KDevelop, etc.)?**
 
-Visual Studio with  Microsoft Windows is the daily driver for all of my needs and this is the one that i am most familiar with. Also I am proficient  in Vs Code and Sublime (
+Visual Studio with  Microsoft Windows is the daily driver for all of my needs and this is the one that i am most familiar with. Also I am proficient and can work  in Vs Code or Sublime if I am on the linux platform.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTAxMjkxMTAsLTE4OTk2NDEzNjcsNj
+eyJoaXN0b3J5IjpbLTE3MjYxNjgzNjksLTE4OTk2NDEzNjcsNj
 kxNTY4OTc1LC02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3
 ODAsLTIyNjA2MzQ4NSw5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsND
 E5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4
