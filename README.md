@@ -25,7 +25,7 @@ I can start working on the project after **10th-15th May 2020** as after **15th 
 
 During the month of **July** I would request  **2 days** leave as i would have to go for an exhibition along with my team in Bangalore for **MC Afee Scholars Programme**. Other than that I am completely free during the summers and don't have any other commitments as such.
 
-## Educational Background
+## Background Information
 I am a 3rd Year undergraduate in Computer Science and Engineering from Dronacharya College of Engineering, Gurgaon Haryana. *Some* of the courses that I have pursued during my first five semesters are :
 
  - Object Oriented Programming in C++
@@ -81,7 +81,7 @@ Yes, I have been  working on a similar project from quite sometime ( Conceptuall
 **What are your plans beyond this Summer of Code time frame for your proposed work?.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODkyMDY0NCw2OTE1Njg5NzUsLTYwMj
+eyJoaXN0b3J5IjpbMTIzNTM1MTk2Myw2OTE1Njg5NzUsLTYwMj
 g5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYzNDg1
 LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLTEwMz
 YxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3Njcx
