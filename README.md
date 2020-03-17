@@ -68,11 +68,11 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
 
 **Programming Interests and Reason for Contributing to Boost Libraries**
 
-
+I have a considerable amount of knowledge in C++ and am quite comfortable working in C++ as C++ has been the daily 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjA2MzQ4NSw5Nzg1ODU1NjQsLTEwMj
-U5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1
-LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNj
-A0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NTUxNzIw
-LC0xNjM0NzYxMjU1XX0=
+eyJoaXN0b3J5IjpbLTIwMTg3NDEyNTgsLTIyNjA2MzQ4NSw5Nz
+g1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0
+ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMz
+UzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1
+NjgsNjE3NTUxNzIwLC0xNjM0NzYxMjU1XX0=
 -->
