@@ -61,12 +61,13 @@ During my first and second semester I had scored around 870 and 836 respectively
 **Internship/Jobs/Courses Audited**
 
  - I organized and mentored **Advanced C++ Programming Course** in my college for 6 weeks during my first year with students from 2nd, 4th and 6th semester
- - I audited Introduction to
+ - I audited Introduction to C++ course from National Programme on Technology Enhanced Learning ( NPTEL ) and was in the 5% toppers category
+ - Last summer I also audited a course in Ethical Hacking from Internshala
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjE0NjczNyw5Nzg1ODU1NjQsLTEwMj
-U5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1
-LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNj
-A0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NTUxNzIw
-LC0xNjM0NzYxMjU1XX0=
+eyJoaXN0b3J5IjpbNTk3Mjk2NzM4LDk3ODU4NTU2NCwtMTAyNT
+kwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4MiwtNDA4NzIyMjUs
+MTMzODA4NTgxNSwtMTkwNTU3NjcxOCwzNTM1MDQzMjMsLTE2MD
+QyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2OCw2MTc1NTE3MjAs
+LTE2MzQ3NjEyNTVdfQ==
 -->
