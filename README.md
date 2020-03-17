@@ -86,13 +86,13 @@ Even after the **GSOC** period, I will continue to contribute to the **boost. As
 
 
 -   C++ 98/03 (traditional C++) : 4
--   C++ 11/14 (modern C++) :  4
--   C++ Standard Library:
--   Boost C++ Libraries
+-   C++ 11/14 (modern C++)&nbsp;&nbsp;&nbsp;&nbsp; :  4
+-   C++ Standard Library&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 4 
+-   Boost C++ Libraries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
 -   Git
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMjI0NzU3LDY5MTU2ODk3NSwtNjAyOD
+eyJoaXN0b3J5IjpbNzg2NzQyNDQ3LDY5MTU2ODk3NSwtNjAyOD
 kyNTUzLDE3NjEwNzQyODYsODYyNjcwNzgwLC0yMjYwNjM0ODUs
 OTc4NTg1NTY0LC0xMDI1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNj
 E2NDgyLC00MDg3MjIyNSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4
