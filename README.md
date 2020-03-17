@@ -106,14 +106,13 @@ Develope a small class/function which will be able to read the primary header (P
 
 **Solution**
 Kindly visit  [Fits Reader](https://github.com/gopi487krishna/FITS_primary_header)
-(github repo that hosts the solution for Programming Competency Test)and read the [README.md](https://github.com/gopi487krishna/FITS_primary_header) file on
-
+(github repo that hosts the solution for Programming Competency Test ) for instructions and implementation details on how 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxODUxMjIxLDcwMzExMjkzMiwtMTg5OT
-Y0MTM2Nyw2OTE1Njg5NzUsLTYwMjg5MjU1MywxNzYxMDc0Mjg2
-LDg2MjY3MDc4MCwtMjI2MDYzNDg1LDk3ODU4NTU2NCwtMTAyNT
-kwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4MiwtNDA4NzIyMjUs
-MTMzODA4NTgxNSwtMTkwNTU3NjcxOCwzNTM1MDQzMjMsLTE2MD
-QyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2OCw2MTc1NTE3MjBd
-fQ==
+eyJoaXN0b3J5IjpbLTE2MzIxNjkxMDgsNzAzMTEyOTMyLC0xOD
+k5NjQxMzY3LDY5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEwNzQy
+ODYsODYyNjcwNzgwLC0yMjYwNjM0ODUsOTc4NTg1NTY0LC0xMD
+I1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3MjIy
+NSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4LDM1MzUwNDMyMywtMT
+YwNDIxNzM3OSw1NjY3MjkxOTEsNzM5NjQyNTY4LDYxNzU1MTcy
+MF19
 -->
