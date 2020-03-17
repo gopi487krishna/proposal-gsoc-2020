@@ -105,11 +105,11 @@ I am familiar with Doxygen and have been using it for my GML Project with Morsa 
 Develope a small class/function which will be able to read the primary header (Plus points for developing ways to enter the header-value in the primary header and writing into the file) 
 
 **Solution**
-Kindly visit  [Fits Parser](https://github.com/gopi487krishna/FITS_primary_header)
-and read the [README.md]() file on
+Kindly visit  [Fits Reader](https://github.com/gopi487krishna/FITS_primary_header)
+(github repo that hosts the solution for Programming Competency Test)and read the [README.md](https://github.com/gopi487krishna/FITS_primary_header) file on
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzE4ODg4LDcwMzExMjkzMiwtMTg5OT
+eyJoaXN0b3J5IjpbNjUxODUxMjIxLDcwMzExMjkzMiwtMTg5OT
 Y0MTM2Nyw2OTE1Njg5NzUsLTYwMjg5MjU1MywxNzYxMDc0Mjg2
 LDg2MjY3MDc4MCwtMjI2MDYzNDg1LDk3ODU4NTU2NCwtMTAyNT
 kwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4MiwtNDA4NzIyMjUs
