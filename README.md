@@ -71,15 +71,16 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
 I have a considerable amount of knowledge in C++ and am quite comfortable working in C++ as C++ has been the daily driver for all my needs ( From last 2 years I have been working more on System Programming Projects than in other fields ). Also along with C++ I have good proficiency in languages such as C#, Visual Basic,  RUST, Java.
 
 **Reason for Contributing to Boost Libraries**
+
 C++ is the best language that I have worked on till now and out of curiosity, I wanted to know how the libraries and new features were introduced in the C++ language. This is when I was introduced to boost libraries for C++. I learned that Boost wrote code that was exceptional in quality and performance and has become the gold class industry standard for libraries in the C++ language. Along with that I also got to know that most of the features in C++ came from the boost libraries that had been written several years ago (2001,2002,2003). From that onwards, I became a big fan of Boost and always wanted to contribute to boost and someday have my own libraries in the boost and C++ standard itself. Also, I saw the real power of Open Source from boost. I believe that making a project open source and freeware not only makes it free for the people but also improves the quality of the code drastically.  This the main reason why I want to contribute to "boost" libraries.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjg5MjU1MywxNzYxMDc0Mjg2LDg2Mj
-Y3MDc4MCwtMjI2MDYzNDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0
-NSw0MTkwNDc2OTUsLTEwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzOD
-A4NTgxNSwtMTkwNTU3NjcxOCwzNTM1MDQzMjMsLTE2MDQyMTcz
-NzksNTY2NzI5MTkxLDczOTY0MjU2OCw2MTc1NTE3MjAsLTE2Mz
-Q3NjEyNTVdfQ==
+eyJoaXN0b3J5IjpbLTE2NTg3NjQzMTUsLTYwMjg5MjU1MywxNz
+YxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYzNDg1LDk3ODU4NTU2
+NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4MiwtND
+A4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3NjcxOCwzNTM1MDQz
+MjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2OCw2MT
+c1NTE3MjAsLTE2MzQ3NjEyNTVdfQ==
 -->
