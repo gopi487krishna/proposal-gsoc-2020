@@ -76,10 +76,10 @@ C++ is the best language that I have worked on till now and out of curiosity, I 
 
 **Have you done any previous work in this area before or on similar projects?**
 
-Yes, I have been  working on a similar project from quite sometime. The project's name is GML or Generalized Markup Language. It is basically a pseudo programming language with support for both structuring the data and for writing programs in it. It provides about 80%  performance boost from typically XML parsers with a ton of additional features  and has a 70% less file size footprint. A XML file of 100KB would roughly be around 
+Yes, I have been  working on a similar project from quite sometime. The project's name is GML or Generalized Markup Language. It is basically a pseudo programming language with  better human  readability and support for both structuring the data and for writing programs in it. It provides about 80%  performance boost from typically XML parsers with a ton of additional features  and has a 70% less file size footprint. A XML file of 100KB would roughly be around 20KB in size in GML. This project recently got selected in the MC Afee 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzc1Nzc5NSw2OTE1Njg5NzUsLTYwMj
+eyJoaXN0b3J5IjpbLTY0MDIyOTY3Miw2OTE1Njg5NzUsLTYwMj
 g5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYzNDg1
 LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLTEwMz
 YxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3Njcx
