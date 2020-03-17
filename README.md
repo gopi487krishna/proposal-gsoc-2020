@@ -56,7 +56,7 @@ I am a 3rd Year undergraduate in Computer Science and Engineering from Dronachar
 	 - University Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  : **2 ( Merit List not yet declared but based on Result Gazette)**
 	 - College Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: **2**
 
-I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I completed 
+I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I completed my high school education from **St.Thomas Sr.Sec School** , Bahadurgarh, Haryana.
 
  During my first and second semester I had scored around 870 and 836 respectively and did not secure any Rank from the university or college.
 	 
@@ -70,7 +70,7 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
 **My Achievements**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjMxMjgwMjYsOTc4NTg1NTY0LC0xMD
+eyJoaXN0b3J5IjpbLTEzNTQ3ODU5MzIsOTc4NTg1NTY0LC0xMD
 I1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3MjIy
 NSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4LDM1MzUwNDMyMywtMT
 YwNDIxNzM3OSw1NjY3MjkxOTEsNzM5NjQyNTY4LDYxNzU1MTcy
