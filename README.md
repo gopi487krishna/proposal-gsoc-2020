@@ -80,12 +80,13 @@ Yes, I have been  working on a similar project from quite sometime ( Conceptuall
 
 **What are your plans beyond this Summer of Code time frame for your proposed work?.**
 
-Even after the GSOC period, I will continue to contribute to the boost.Astronomy until the library gets fully  accepted into boost and becomes the gold standard FITS library 
+Even after the **GSOC** period, I will continue to contribute to the **boost. Astronomy** until the library gets fully  accepted into boost and becomes the gold standard FITS library for C++. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTUyMTA4NSw2OTE1Njg5NzUsLTYwMj
-g5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYzNDg1
-LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLTEwMz
-YxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3Njcx
-OCwzNTM1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOT
-Y0MjU2OCw2MTc1NTE3MjAsLTE2MzQ3NjEyNTVdfQ==
+eyJoaXN0b3J5IjpbLTU4NjAzOTg5LDY5MTU2ODk3NSwtNjAyOD
+kyNTUzLDE3NjEwNzQyODYsODYyNjcwNzgwLC0yMjYwNjM0ODUs
+OTc4NTg1NTY0LC0xMDI1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNj
+E2NDgyLC00MDg3MjIyNSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4
+LDM1MzUwNDMyMywtMTYwNDIxNzM3OSw1NjY3MjkxOTEsNzM5Nj
+QyNTY4LDYxNzU1MTcyMCwtMTYzNDc2MTI1NV19
 -->
