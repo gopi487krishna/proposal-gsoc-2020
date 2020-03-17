@@ -60,10 +60,11 @@ During my first and second semester I had scored around 870 and 836 respectively
 	 
 **Internship/Jobs/Courses Audited**
 
- - I organized and mentored Advanced C++ Programming Course 
+ - I organized and mentored **Advanced C++ Programming Course** in my college for 6 weeks during my first year with students from 2nd, 4th and 6th semester
+ - I audited Introduction to
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjYwNTkxOSw5Nzg1ODU1NjQsLTEwMj
+eyJoaXN0b3J5IjpbLTc0MjE0NjczNyw5Nzg1ODU1NjQsLTEwMj
 U5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1
 LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNj
 A0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NTUxNzIw
