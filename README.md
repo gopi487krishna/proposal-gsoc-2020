@@ -42,14 +42,17 @@ I am a 3rd Year undergraduate in Computer Science and Engineering from Dronachar
 
 **Academic Performance**
 
- - 3rd Semester :
-	 - Total Marks Secured : 926/1150 
-	 - University Rank			: 16
-	 - College Rank				: 2
--  
+ - **3rd Semester** :
+	 - Total Marks Secured : **926/1150** 
+	 - University Rank			: **16**
+	 - College Rank				: **2**
+ - **4th Semester** :
+	 - Total Marks Secured : **936/1150** 
+	 - University Rank			: **12**
+	 - College Rank				: **1**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE4ODA1MDksLTQwODcyMjI1LDEzMz
+eyJoaXN0b3J5IjpbLTEyODg1Mzg0NTYsLTQwODcyMjI1LDEzMz
 gwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNjA0MjE3
 Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NTUxNzIwLC0xNj
 M0NzYxMjU1XX0=
