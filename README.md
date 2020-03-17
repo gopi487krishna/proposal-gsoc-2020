@@ -71,9 +71,11 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
 I have a considerable amount of knowledge in C++ and am quite comfortable working in C++ as C++ has been the daily driver for all my needs ( From last 2 years I have been working more on System Programming Projects than in others ). Also along with C++ I have good proficiency in languages such as C#, Visual Basic,  RUST, Java.
 
 **Reason for Contributing to Boost Libraries**
-C++ is the best language that I have worked on till now and out of curiosity I wanted to know how the libraries and and new features were introduced in the C++ language. This is when i was introduced to boost libraries for C++. I learned that Boost wrote code  that was exceptional in quality and performance and has become the gold class industry standard for libraries in C++ language. Along with that i also got to know that most of the features in C++ came from boost that had been written into boost several years ago (2001,2002,2003).From that onwards i became a big fan of Boost libraries and always wanted to contribute to boost and someday have my own libraries in the boost and C++ standard itself. Also the i saw the real power of Open Source from boost. I believe that making a project open source and freeware  not only makes it free for the people but also improves the quality of the  
+C++ is the best language that I have worked on till now and out of curiosity I wanted to know how the libraries and and new features were introduced in the C++ language. This is when i was introduced to boost libraries for C++. I learned that Boost wrote code  that was exceptional in quality and performance and has become the gold class industry standard for libraries in C++ language. Along with that i also got to know that most of the features in C++ came from boost that had been written into boost several years ago (2001,2002,2003).From that onwards i became a big fan of Boost libraries and always wanted to contribute to boost and someday have my own libraries in the boost and C++ standard itself. Also the i saw the real power of Open Source from boost. I believe that making a project open source and freeware  not only makes it free for the people but also improves the quality of the code drastically.  This the main reason why i want to contribute to boost libraries.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjczNTgyMyw4NjI2NzA3ODAsLTIyNj
+eyJoaXN0b3J5IjpbMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNj
 A2MzQ4NSw5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1
 LC0xMDM2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MD
 U1NzY3MTgsMzUzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5
