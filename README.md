@@ -109,13 +109,13 @@ Kindly visit  [Fits Reader](https://github.com/gopi487krishna/FITS_primary_heade
 (github repo that hosts the solution for Programming Competency Test ) for instructions and implementation details on how to use the Fits Reader API (README).
 Just to summarize the Fits Reader API can :
 
- - Read Primary Header of a FITS File
- - 
+ - Read Primary Header or any other extension header  of a FITS File
+ - Write primary header data b
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDczODA5OCw3MDMxMTI5MzIsLTE4OT
+eyJoaXN0b3J5IjpbMTY0NzY2MDYwOSw3MDMxMTI5MzIsLTE4OT
 k2NDEzNjcsNjkxNTY4OTc1LC02MDI4OTI1NTMsMTc2MTA3NDI4
 Niw4NjI2NzA3ODAsLTIyNjA2MzQ4NSw5Nzg1ODU1NjQsLTEwMj
 U5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1
