@@ -88,14 +88,14 @@ Even after the **GSOC** period, I will continue to contribute to the **boost. As
 -   C++ 98/03 (traditional C++) : 4
 -   C++ 11/14 (modern C++)&nbsp;&nbsp;&nbsp;&nbsp; :  4
 -   C++ Standard Library&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 4 
--   Boost C++ Libraries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
--   Git
+-   Boost C++ Libraries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 3
+-   Git&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 3
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2NzQyNDQ3LDY5MTU2ODk3NSwtNjAyOD
-kyNTUzLDE3NjEwNzQyODYsODYyNjcwNzgwLC0yMjYwNjM0ODUs
-OTc4NTg1NTY0LC0xMDI1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNj
-E2NDgyLC00MDg3MjIyNSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4
-LDM1MzUwNDMyMywtMTYwNDIxNzM3OSw1NjY3MjkxOTEsNzM5Nj
-QyNTY4LDYxNzU1MTcyMCwtMTYzNDc2MTI1NV19
+eyJoaXN0b3J5IjpbLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC02MD
+I4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2MzQ4
+NSw5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC0xMD
+M2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MDU1NzY3
+MTgsMzUzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5MSw3Mz
+k2NDI1NjgsNjE3NTUxNzIwLC0xNjM0NzYxMjU1XX0=
 -->
