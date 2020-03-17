@@ -47,18 +47,18 @@ I am a 3rd Year undergraduate in Computer Science and Engineering from Dronachar
 	 - University Rank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: **16**
 	 - College Rank				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :  **2**
  - **4th Semester** :
-	 - Total Marks Secured : **936/1150** 
+	 - Total Marks Secured :**936/1150** 
 	 - University Rank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			: **12**
 	 - College Rank			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: **1**
  - **5th Semester** :
-	 - Total Marks Secured : **986/1150** 
+	 - Total Marks Secured :**986/1150** 
 	 - University Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	: **2 ( Merit List not yet declared but based on Result Gazette)**
-	 - College Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		: **2**
+	 - College Rank		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		:**2**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwOD
-cyMjI1LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIz
-LC0xNjA0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NT
-UxNzIwLC0xNjM0NzYxMjU1XX0=
+eyJoaXN0b3J5IjpbLTc3NTEyNTQwNSw0MTkwNDc2OTUsLTEwMz
+YxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3Njcx
+OCwzNTM1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOT
+Y0MjU2OCw2MTc1NTE3MjAsLTE2MzQ3NjEyNTVdfQ==
 -->
