@@ -110,17 +110,17 @@ Kindly visit  [Fits Reader](https://github.com/gopi487krishna/FITS_primary_heade
 Just to summarize the Fits Reader API can :
 
  - Read Primary Header or any other extension header  of a FITS File
- - Write primary header data back to the FITS file
- - Supports custom parsing policies that allows the programmer to specify his own set of parsing rules for FITS ( This is the very reason 
+ - Write updated primary header data back to the FITS file
+ - Supports custom parsing policies that allows the programmer to specify his own set of parsing rules for FITS ( This is the very reason all different types of headers can be parsed and stored using this API).  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzQ2ODU4Miw3MDMxMTI5MzIsLTE4OT
-k2NDEzNjcsNjkxNTY4OTc1LC02MDI4OTI1NTMsMTc2MTA3NDI4
-Niw4NjI2NzA3ODAsLTIyNjA2MzQ4NSw5Nzg1ODU1NjQsLTEwMj
-U5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1
-LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNj
-A0MjE3Mzc5LDU2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NTUxNzIw
-XX0=
+eyJoaXN0b3J5IjpbNzQyNTc3ODAyLDcwMzExMjkzMiwtMTg5OT
+Y0MTM2Nyw2OTE1Njg5NzUsLTYwMjg5MjU1MywxNzYxMDc0Mjg2
+LDg2MjY3MDc4MCwtMjI2MDYzNDg1LDk3ODU4NTU2NCwtMTAyNT
+kwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4MiwtNDA4NzIyMjUs
+MTMzODA4NTgxNSwtMTkwNTU3NjcxOCwzNTM1MDQzMjMsLTE2MD
+QyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2OCw2MTc1NTE3MjBd
+fQ==
 -->
