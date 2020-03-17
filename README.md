@@ -71,12 +71,12 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
 I have a considerable amount of knowledge in C++ and am quite comfortable working in C++ as C++ has been the daily driver for all my needs ( From last 2 years I have been working more on System Programming Projects than in others ). Also along with C++ I have good proficiency in languages such as C#, Visual Basic,  RUST, Java.
 
 **Reason for Contributing to Boost Libraries**
-C++ is the best language that I have worked on till now and out of curiosity I wanted to know how the libraries and and new features were introduced in the C++ language. This is when i got introduc
+C++ is the best language that I have worked on till now and out of curiosity I wanted to know how the libraries and and new features were introduced in the C++ language. This is when i was introduced to boost libraries for C++. I learned that Boost wrote code  that was exceptional in quality and performance 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTk1MTcyNSw4NjI2NzA3ODAsLTIyNj
-A2MzQ4NSw5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1
-LC0xMDM2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MD
-U1NzY3MTgsMzUzNTA0MzIzLC0xNjA0MjE3Mzc5LDU2NjcyOTE5
-MSw3Mzk2NDI1NjgsNjE3NTUxNzIwLC0xNjM0NzYxMjU1XX0=
+eyJoaXN0b3J5IjpbMjE5NDg0MTMxLDg2MjY3MDc4MCwtMjI2MD
+YzNDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUs
+LTEwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNT
+U3NjcxOCwzNTM1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkx
+LDczOTY0MjU2OCw2MTc1NTE3MjAsLTE2MzQ3NjEyNTVdfQ==
 -->
