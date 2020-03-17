@@ -98,14 +98,21 @@ Visual Studio with  Microsoft Windows is the daily driver for all of my needs an
 **What software documentation tool are you most familiar with (Doxygen, DocBook, Quickbook, etc.)?**
 
 I am familiar with Doxygen and have been using it for my GML Project with Morsa MCSS framework for automatic documentation generation of my project.
+
 ## Programming Competency
+**Problem Statement** 
+
+Develope a small class/function which will be able to read the primary header (Plus points for developing ways to enter the header-value in the primary header and writing into the file) 
+
+** Solution**
+Kindly visit the reposit
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODY1MDEwOTQsNzAzMTEyOTMyLC0xOD
-k5NjQxMzY3LDY5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEwNzQy
-ODYsODYyNjcwNzgwLC0yMjYwNjM0ODUsOTc4NTg1NTY0LC0xMD
-I1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3MjIy
-NSwxMzM4MDg1ODE1LC0xOTA1NTc2NzE4LDM1MzUwNDMyMywtMT
-YwNDIxNzM3OSw1NjY3MjkxOTEsNzM5NjQyNTY4LDYxNzU1MTcy
-MF19
+eyJoaXN0b3J5IjpbODIyMzQ5ODYsNzAzMTEyOTMyLC0xODk5Nj
+QxMzY3LDY5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEwNzQyODYs
+ODYyNjcwNzgwLC0yMjYwNjM0ODUsOTc4NTg1NTY0LC0xMDI1OT
+A5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3MjIyNSwx
+MzM4MDg1ODE1LC0xOTA1NTc2NzE4LDM1MzUwNDMyMywtMTYwND
+IxNzM3OSw1NjY3MjkxOTEsNzM5NjQyNTY4LDYxNzU1MTcyMF19
+
 -->
