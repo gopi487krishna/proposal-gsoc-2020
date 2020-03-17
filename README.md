@@ -93,13 +93,13 @@ Even after the **GSOC** period, I will continue to contribute to the **boost. As
 
 **What software development environments are you most familiar with (Visual Studio, Eclipse, KDevelop, etc.)?**
 
-Visual Studio along with Windows Operating System is the one that i am most familiar with. 
+Visual Studio with  Microsoft Windows is the one that i am most familiar with. Also i am proficient in Vs Code and Sublime
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg5MTExNjAsLTE4OTk2NDEzNjcsNj
-kxNTY4OTc1LC02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3
-ODAsLTIyNjA2MzQ4NSw5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsND
-E5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4
-MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNjA0MjE3Mzc5LD
-U2NjcyOTE5MSw3Mzk2NDI1NjgsNjE3NTUxNzIwLC0xNjM0NzYx
-MjU1XX0=
+eyJoaXN0b3J5IjpbMTk5NDIxNjc4MSwtMTg5OTY0MTM2Nyw2OT
+E1Njg5NzUsLTYwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4
+MCwtMjI2MDYzNDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MT
+kwNDc2OTUsLTEwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgx
+NSwtMTkwNTU3NjcxOCwzNTM1MDQzMjMsLTE2MDQyMTczNzksNT
+Y2NzI5MTkxLDczOTY0MjU2OCw2MTc1NTE3MjAsLTE2MzQ3NjEy
+NTVdfQ==
 -->
