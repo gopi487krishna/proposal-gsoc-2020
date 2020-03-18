@@ -171,7 +171,7 @@ Also we are always trying to convert string to some type which literally means w
 
 **Strict Conformance to the FITS standard**
 
-Currently the codebase for **fits module** does not confirm to the fits standard in many places such as testing whether the keywords are in correct format (8 byte chunks are copied but are not checked whether they confirm to fits standard  )  or checking whether the required keywords are present in order. Although it does not affect really for most of the applications, It can significantly create a problem if someone is trying to write a fits validator application. There is no way to confirm that the file follows the fits standards. **This** can be largely improved by introducing a change in design i.e using **parsing policy** instead of baking the rules right into the code.
+Currently the codebase for **fits module** does not confirm to the fits standard in many places such as testing whether the keywords are in correct format (8 byte chunks are copied but are not checked whether they confirm to fits standard - This even introduces a bug which has been described later )  or checking whether the required keywords are present in order. Although it does not affect really for most of the applications, It can significantly create a problem if someone is trying to write a fits validator application. There is no way to confirm that the file follows the fits standards. **This** can be largely improved by introducing a change in design i.e using **parsing policy** instead of baking the rules right into the code.
 
 **Use of Parsing Policy instead of hard coding the rules**
 
@@ -224,11 +224,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY5NTI2ODksNzQwMDM5MzA5LDE3OT
-UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
-MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
-k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
-MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMT
-k0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcw
-MzExMjkzMl19
+eyJoaXN0b3J5IjpbLTY0NTUzMDgzOSw3NDAwMzkzMDksMTc5NT
+MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
+NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
+Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
+NTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOT
+QsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAz
+MTEyOTMyXX0=
 -->
