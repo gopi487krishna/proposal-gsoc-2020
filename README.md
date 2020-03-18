@@ -171,7 +171,7 @@ Also we are always trying to convert string to some type which literally means w
 
 **Strict Conformance to the FITS standard**
 
-Currently the codebase for **fits module** does not confirm to the fits standard in many places such as testing whether the keywords are in correct format ( Currently only 8 byte chunks are copied )  or checking whether the required keywords are present in order. Although it does not affect really for most of the applications, It can significantly create a problem if someone is trying to write a fits validator application. There is no way to confirm that the file follows the fits standards. **This** can be largely improved by introducing a change in design i.e using **parsing policy** instead of baking the rules right into the code.
+Currently the codebase for **fits module** does not confirm to the fits standard in many places such as testing whether the keywords are in correct format (8 byte chunks are copied but are not checked whether they confirm to fits standard  )  or checking whether the required keywords are present in order. Although it does not affect really for most of the applications, It can significantly create a problem if someone is trying to write a fits validator application. There is no way to confirm that the file follows the fits standards. **This** can be largely improved by introducing a change in design i.e using **parsing policy** instead of baking the rules right into the code.
 
 **Use of Parsing Policy instead of hard coding the rules**
 
@@ -224,11 +224,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MzkyNjY3LDc0MDAzOTMwOSwxNzk1Mz
-A3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2
-NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5ND
-Y0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1
-MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NC
-wxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMx
-MTI5MzJdfQ==
+eyJoaXN0b3J5IjpbLTIwNTY5NTI2ODksNzQwMDM5MzA5LDE3OT
+UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
+MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
+k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
+MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMT
+k0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcw
+MzExMjkzMl19
 -->
