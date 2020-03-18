@@ -179,7 +179,7 @@ Currently the parsing rules are baked into the fits  module . The fits standard 
 be written by the user or provided from boost itself. In simple terms a parsing policy defines the rules on how the file needs to be parsed . *Its like an interface but only thing is the interface is enforced at compile time rather than runtime with 0 performance overhead.* This will not only support  boost but will also support companies that want to make their custom proprietary format based on the original FITS standard. We will provide a default one that confirms strictly to the standard and others can make one if necessary. This would provide an immense amount of flexiblity and that would ultimately increase the user base for this library (as custom parsing rules ( like parsing value using some other library instead of boost because of better performance etc.)  are supported without hurting performance).  This would provide a small help in making boost the gold standard of C++ libraries.
  
 
-To better understand this design pattern and its advantages kindly refer to the competency test solution. 
+To better understand this design pattern and its advantages kindly refer to the [competency test](https://github.com/gopi487krishna/FITS_primary_header)  solution. 
 
 > Parts of design that can be changed should be allowed to change
 
@@ -238,7 +238,7 @@ This is the reason why i suggest to parse and store the values during reading it
 
 Also one another advantage ( I cannot prove it as of now ) is that same kind of operations ( read card, parse keyword, value) is being repeated again and again and that means the CPU can cache it completely which will surely  improve the average value parsing time .
  
-Kindly refer to the competency test solution for a basic implementation of this style of parsing with parsing policy ( The value_type  is not baked into the code but is exposed by t
+Kindly refer to the competency test solution for a basic implementation of this style of parsing with parsing policy ( The value_type  is not baked into the code but is exposed by the policy class making it highly flexible )
 	
 
 
@@ -265,11 +265,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg2ODE3MDcsMzY4MjYyMjExLDEyNj
-A2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2
-MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMj
-AwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4
-MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNC
-wtMTgzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNjEsLTIw
-NjEzMDk5ODhdfQ==
+eyJoaXN0b3J5IjpbNDU4OTg4Nzk2LDM2ODI2MjIxMSwxMjYwNj
+E0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMs
+MTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1MDksMTIwMD
+k4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0
+MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLT
+E4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYx
+MzA5OTg4XX0=
 -->
