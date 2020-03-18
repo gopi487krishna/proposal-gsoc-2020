@@ -201,7 +201,7 @@ Well the  low cost compile time solution is to use **std::variant**. A type with
 ```cpp
 typedef std::variant<std::monostate,bool,long long,double,std::string,std::complex<int>,std::complex<double>> value_type;
 ```
-Although the type looks large ( A varaint is a type-safe union and the memory required by union is the size of its largest type mentioned in it ), the actual size consumed by an object of  **value_type** is just 40 bytes in both **MSVC** and **gcc**. 
+Although the type looks large ( A variant is a type-safe union and the memory required by union is the size of its largest type mentioned in it ), the actual size consumed by an object of  **value_type** is just 40 bytes in both **MSVC** and **gcc**. The real size should have been around 24 bytes only but 
  
  
 	
@@ -229,11 +229,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNzkwMjE0LDc0MDAzOTMwOSwxNzk1Mz
-A3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2
-NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5ND
-Y0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1
-MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NC
-wxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMx
-MTI5MzJdfQ==
+eyJoaXN0b3J5IjpbMTI0MzY0MDA2NCw3NDAwMzkzMDksMTc5NT
+MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
+NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
+Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
+NTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOT
+QsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAz
+MTEyOTMyXX0=
 -->
