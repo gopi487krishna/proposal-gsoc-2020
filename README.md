@@ -117,7 +117,10 @@ Basically we can support three types of file modes (This will require some chang
 2. Buffered Mode ( Small Files )
 3. Memory Mapped Mode ( Large Files)
 
+> The code given below is pseudocode. Actual implementation may vary by a little, Also enforcing this kind of interface requires a little change in the main codebase.
+
 In order to access the primary HDU the user will have to simply write
+
 ```cpp
 auto primary_hdu= get<primary_hdu>(fits[0]); 
 // In case the user dosent know the indexes of hdu's
@@ -132,7 +135,7 @@ std::cout<<"BSCALE : " << *bscale_val;
 ```
 OR
 ```cpp
-auto primary_dataarr=get<std::vector<something>(primary_hdu.data());
+auto primary_dataarr=get<something>(primary_hdu.data());
 ```
 
 
@@ -156,7 +159,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODY3NDQ5NSwtMTgzOTA5NDU2MSwtOD
+eyJoaXN0b3J5IjpbLTcyNTE4MjY4NywtMTgzOTA5NDU2MSwtOD
 g3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3
 ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLT
 YwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYz
