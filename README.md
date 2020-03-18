@@ -175,7 +175,7 @@ Currently the codebase for **fits module** does not confirm to the fits standard
 
 **Use of Parsing Policy instead of hard coding the rules**
 
-Currently the parsing rules are baked into the fits  module . The fits standard is a pretty old standard and with time many changes/ features  may be introduced requiring the parser to support those. One way is to  update the code base for newer changes but can there be a better solution?  A good solution that i feel would be to use **parsing policy** that can either
+Currently the parsing rules are baked into the fits  module . The fits standard is a pretty old standard and with time many changes/ features  may be introduced requiring the parser to support those as well. One way is to  update the code base for newer changes but can there be a better solution?  A good solution that i feel would be to use **parsing policy** that can either
 be written by the user or provided from boost itself. In simple terms a parsing policy defines the rules on how the file needs to be parsed . *Its like an interface but only thing is the interface is enforced at compile time rather than runtime with 0 performance overhead.* This will not only support  boost but will also support companies that want to make their custom proprietary format based on the original FITS standard. We will provide a default one that confirms strictly to the standard and others can make one if necessary. This would provide an immense amount of flexiblity and that would ultimately increase the user base for this library (as custom parsing rules ( like parsing value using some other library instead of boost because of better performance etc.)  are supported without hurting performance).  This would provide a small help in making boost the gold standard of C++ libraries.
  
 
@@ -224,11 +224,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTUzMDgzOSw3NDAwMzkzMDksMTc5NT
-MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
-NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
-Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
-NTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOT
-QsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAz
-MTEyOTMyXX0=
+eyJoaXN0b3J5IjpbLTEwMTgzMTMyNjcsNzQwMDM5MzA5LDE3OT
+UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
+MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
+k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
+MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMT
+k0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcw
+MzExMjkzMl19
 -->
