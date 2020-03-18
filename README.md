@@ -228,7 +228,7 @@ But still the spaces within the card are not accounted for and may still be larg
 
 **Time** : 
 
-Both  of the problems stated above are not as critical as this one. Every time a call to the **value_of** function takes place, the respective card from the vector is fetched in constant time ( use of unordered_map ). Till here its fine. But then the code calls the lexical cast to convert the value to the required type and this is done each time **value_of** is called ( Even if the same keyword is looked up multiple times by the user ) that defeats the whole purpose as fetching values becomes always slow.
+Both  of the problems stated above are not as critical as this one. Every time a call to the **value_of ( )** function takes place, the respective card from the vector is fetched in constant time ( use of unordered_map ). Till here its fine. But then the code calls the lexical cast to convert the value to the required type and this is done each time **value_of** is called ( Even if the same keyword is looked up multiple times by the user ) that defeats the whole purpose as fetching values becomes always slow.
 
 Moreover if this function is inline ( which it will be for the most cases ) a significant amount of code bloat is encountered.'
 
@@ -264,11 +264,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMD
-M5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQy
-LC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNT
-c1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTky
-MTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MS
-wtODg3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQy
-NTc3ODAyXX0=
+eyJoaXN0b3J5IjpbMTcxNTE4Mjg2NiwzNjgyNjIyMTEsMTI2MD
+YxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYz
+LDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMD
+A5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC0yMzg0Mzgz
+NDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgyMjE0LC
+0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MSwtMjA2
+MTMwOTk4OF19
 -->
