@@ -117,7 +117,7 @@ Basically we can support three types of file modes (This will require some chang
 2. Buffered Mode ( Small Files )
 3. Memory Mapped Mode ( Large Files)
 
-> The code given below is pseudocode. Actual implementation may vary by a little, Also enforcing this kind of interface requires a little change in the main codebase.
+> The code given below is pseudocode but a similar working implementation for a small part of FITS module is given i Actual implementation may vary by a little, Also enforcing this kind of interface requires a little change in the main codebase.
 
 In order to access the primary HDU the user will have to simply write
 
@@ -137,7 +137,7 @@ OR
 ```cpp
 auto primary_dataarr=get<something>(primary_hdu.data());
 ```
-
+To write down the data
 
 
 
@@ -160,7 +160,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTc5NzY0NywtMTgzOTA5NDU2MSwtOD
+eyJoaXN0b3J5IjpbMTE2MTY3MzgxOSwtMTgzOTA5NDU2MSwtOD
 g3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3
 ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLT
 YwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYz
