@@ -172,7 +172,7 @@ Currently the codebase for **fits module** does not confirm to the fits standard
 
 **Use of Parsing Policy instead of hard coding the rules**
 The fits standard is a pretty old standard and with time many changes/ features  may be introduced requiring the parser to support those. One way is to  update the code base for newer changes but can there be a better solution?  A good solution that i feel would be to use **parsing policy** that can either
-be written by the user or provided from boost itself. In simple terms a parsing policy defines the rules on how the file needs to be parsed . *Its like an interface but only thing is the interface is enforced at compile time rather than runtime*
+be written by the user or provided from boost itself. In simple terms a parsing policy defines the rules on how the file needs to be parsed . *Its like an interface but only thing is the interface is enforced at compile time rather than runtime.* This will not only support  boost but will also support companies that want to make their custom propreitary format based 
  
 	
 
@@ -199,11 +199,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDk3MDg4MiwxMjAyMjgxMDQyLC0xMT
-U2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1
-NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LD
-c3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3
-NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3OD
-AyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLTYw
-Mjg5MjU1M119
+eyJoaXN0b3J5IjpbLTE0NDU1MzUxNjcsMTIwMjI4MTA0MiwtMT
+E1NjcxNjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUy
+NTQsLTE5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Ni
+w3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4
+NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3Nz
+gwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC02
+MDI4OTI1NTNdfQ==
 -->
