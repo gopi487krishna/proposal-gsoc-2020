@@ -168,7 +168,9 @@ This is because boost::lexical cast internally uses streams for handling custom 
 Also we are always trying to convert string to some type which literally means we are trying to parse a values. For this boost provides a special purpose library for writing parsers called boost::spirit::qi and one of the functions in this library is called parse which takes linear time ( 0 overhead ) for processing numeric values. Being barebones in nature this is the fastest in town with considerable performance difference over lexical cast.
 
 **Strict Conformance to the FITS standard**
-Currently the codebase for **fits module** does not confirm to the fits standard in many places such as testing whether the keywords are in correct format ( Currently only 8 byte chunks are copied )  or checking whether the required keywords are present in order. Although it does not affect really for most of the applications, It can significantly create a problem if someone is trying to write a fits validator application. There is no way to confirm that the file follows the fits standards. T
+Currently the codebase for **fits module** does not confirm to the fits standard in many places such as testing whether the keywords are in correct format ( Currently only 8 byte chunks are copied )  or checking whether the required keywords are present in order. Although it does not affect really for most of the applications, It can significantly create a problem if someone is trying to write a fits validator application. There is no way to confirm that the file follows the fits standards. **This** can be largely improved by introducing a change in design i.e using **parsing policy** instead of baking the rules right into the code.
+
+**Use of Par
 
  
 	
@@ -196,11 +198,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjQ0MDg1LC0xMTU2NzE2MTY0LDg4Mj
-Y1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4
-NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMT
-M0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYy
-NDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcwMzExMjkzMi
-wtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLTYwMjg5MjU1MywxNzYx
-MDc0Mjg2XX0=
+eyJoaXN0b3J5IjpbLTEzNTQyMTIxOTEsLTExNTY3MTYxNjQsOD
+gyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDcz
+ODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC
+0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2
+NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAzMTEyOT
+MyLC0xODk5NjQxMzY3LDY5MTU2ODk3NSwtNjAyODkyNTUzLDE3
+NjEwNzQyODZdfQ==
 -->
