@@ -113,6 +113,9 @@ To read a FITS file we just use the read function with filename and filemode as 
 fits.read(filename, filemode);
 ```
 Basically we can support three types of file modes namely
+1. Stream Mode  ( Medium Files )
+2. Buffered Mode ( Small Files )
+3. Memory Mapped Mode ( Large Files)
 
 
 
@@ -134,11 +137,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg3MzEwOTMsLTE4MzkwOTQ1NjEsLT
-g4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3
-NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC
-02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2
-MzQ4NSw5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC
-0xMDM2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MDU1
-NzY3MThdfQ==
+eyJoaXN0b3J5IjpbLTg3OTI3NDU2MCwtMTgzOTA5NDU2MSwtOD
+g3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3
+ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLT
+YwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYz
+NDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLT
+EwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3
+NjcxOF19
 -->
