@@ -234,7 +234,9 @@ Moreover if this function is inline ( which it will be for the most cases ) a si
 
 Why parse the same value again and again if it can be first parsed once and then stored. Then the lookup cost will be very small ( order of magnitudes smaller ).
 
-This is the reason why i suggest to parse and store the values during reading itself. One question that comes in mind is how the type of values will be detected for each keyword. Simple we wont detect it, rather we will try parsing the value to each of the types in this order ( bool , std::string, long long, std::complex&lt;long long&gt;, double, ,std::complex&lt;double&gt;  ) It may seem like thats costly but actually its not if the parsing is done in the same order with boost::spirit::qi::parse  ( This is because the results of previous test can be reused for next types ( In competency test solution this has not been done yet but 
+This is the reason why i suggest to parse and store the values during reading itself. One question that comes in mind is how the type of values will be detected for each keyword. Simple we wont detect it, rather we will try parsing the value to each of the types in this order ( bool , std::string, long long, std::complex&lt;long long&gt;, double, ,std::complex&lt;double&gt;  ) It may seem like thats costly but actually its not if the parsing is done in the same order with boost::spirit::qi::parse  ( This is because the results of previous test can be reused for next types ( In competency test solution this advantage is not utilized yet but future version of it will ). 
+
+Also one another advantage ( I cannot prove it as of now ) 
 
  
  
@@ -264,11 +266,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0NjM3ODQ2LDM2ODI2MjIxMSwxMjYwNj
-E0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMs
-MTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1MDksMTIwMD
-k4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0
-MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLT
-E4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYx
-MzA5OTg4XX0=
+eyJoaXN0b3J5IjpbLTEyOTEyMTc1MTksMzY4MjYyMjExLDEyNj
+A2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2
+MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMj
+AwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4
+MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNC
+wtMTgzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNjEsLTIw
+NjEzMDk5ODhdfQ==
 -->
