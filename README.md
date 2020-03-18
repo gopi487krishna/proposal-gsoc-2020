@@ -193,7 +193,7 @@ Everytime 80 bytes are read and pushed into the vector without any checking. Thi
  
  **Space Problems** :
 
-Every card requires 80 bytes but is it really necessary? What i am trying to say is instead of storing 80 bytes chunks we can parse the keyword and value seperately and then store them in an unordered map.
+Every card requires 80 bytes but is it really necessary? What i am trying to say is instead of storing 80 bytes chunks we can parse the keyword and value separately and then store them in an unordered map.
 
 Now the obvious problem is how to save a value of different types in a single variable ?
 Well the  low cost compile time solution is to use **std::variant**. A type with  std::variant would look something like this
@@ -238,7 +238,7 @@ This is the reason why i suggest to parse and store the values during reading it
 
 Also one another advantage ( I cannot prove it as of now ) is that same kind of operations ( read card, parse keyword, value) is being repeated again and again and that means the CPU can cache it completely which will surely  improve the average value parsing time .
  
-Kindly refer to the competency test solution for a basic implementation of this style of parsing with parsing policy ( The value_type  is not baked into the code but is exposed by the policy class making it highly flexible )
+Kindly refer to the [competency test](https://github.com/gopi487krishna/FITS_primary_header)  solution for a basic implementation of this style of parsing with parsing policy ( The value_type  is not baked into the code but is exposed by the policy class making it highly flexible )
 	
 
 
@@ -265,11 +265,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4OTg4Nzk2LDM2ODI2MjIxMSwxMjYwNj
-E0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMs
-MTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1MDksMTIwMD
-k4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0
-MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLT
-E4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYx
-MzA5OTg4XX0=
+eyJoaXN0b3J5IjpbMTAyMjgzMDczNSwzNjgyNjIyMTEsMTI2MD
+YxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYz
+LDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMD
+A5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC0yMzg0Mzgz
+NDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgyMjE0LC
+0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MSwtMjA2
+MTMwOTk4OF19
 -->
