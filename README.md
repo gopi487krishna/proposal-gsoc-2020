@@ -234,7 +234,7 @@ Moreover if this function is inline ( which it will be for the most cases ) a si
 
 Why parse the same value again and again if it can be first parsed once and then stored. Then the lookup cost will be very small ( order of magnitudes smaller ).
 
-This is the reason why i suggest to parse and store the values during 
+This is the reason why i suggest to parse and store the values during reading itself.
 
  
  
@@ -263,11 +263,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODM5NDQwLDc0MDAzOTMwOSwxNzk1Mz
-A3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2
-NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5ND
-Y0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1
-MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NC
-wxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMx
-MTI5MzJdfQ==
+eyJoaXN0b3J5IjpbMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NT
+MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
+NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
+Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
+NTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOT
+QsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAz
+MTEyOTMyXX0=
 -->
