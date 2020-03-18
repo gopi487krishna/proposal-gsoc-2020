@@ -119,7 +119,9 @@ Basically we can support three types of file modes (This will require some chang
 
 In order to access the primary HDU the user will have to simply write
 ```cpp
-auto primary_hdu= 
+auto primary_hdu= get<primary_hdu>(fits[0]); 
+// 
+auto primary_hdu= get<primary_hdu>(fits["primary_hdu"]);
 ```
 
 
@@ -142,11 +144,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxNzgzNzA3LC0xODM5MDk0NTYxLC04OD
-c1MTMxOTQsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4
-MDIsNzAzMTEyOTMyLC0xODk5NjQxMzY3LDY5MTU2ODk3NSwtNj
-AyODkyNTUzLDE3NjEwNzQyODYsODYyNjcwNzgwLC0yMjYwNjM0
-ODUsOTc4NTg1NTY0LC0xMDI1OTA5MTQ1LDQxOTA0NzY5NSwtMT
-AzNjE2NDgyLC00MDg3MjIyNSwxMzM4MDg1ODE1LC0xOTA1NTc2
-NzE4XX0=
+eyJoaXN0b3J5IjpbLTgwODc2MTYxOSwtMTgzOTA5NDU2MSwtOD
+g3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3
+ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLT
+YwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYz
+NDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLT
+EwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3
+NjcxOF19
 -->
