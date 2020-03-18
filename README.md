@@ -108,7 +108,7 @@ It consists of a collection of functions that facilitates the user in communicat
 
 **How would the interface be Used ?**
 
-To read a FITS file we just use the read function with filename and file mode as argument ( Kindly refer to [competency test]() solution for a basic implementation )
+To read a FITS file we just use the read function with filename and file mode as argument ( Kindly refer to [competency test](https://github.com/gopi487krishna/FITS_primary_header) solution for a basic implementation )
 ```cpp
 fits.read(filename, filemode);
 ```
@@ -117,6 +117,10 @@ Basically we can support three types of file modes (This will require some chang
 2. Buffered Mode ( Small Files )
 3. Memory Mapped Mode ( Large Files)
 
+In order to access the primary HDU the user will have to simply write
+```cpp
+auto primary_hdu= 
+```
 
 
 
@@ -138,7 +142,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMjIxNzIyLC0xODM5MDk0NTYxLC04OD
+eyJoaXN0b3J5IjpbNTQxNzgzNzA3LC0xODM5MDk0NTYxLC04OD
 c1MTMxOTQsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4
 MDIsNzAzMTEyOTMyLC0xODk5NjQxMzY3LDY5MTU2ODk3NSwtNj
 AyODkyNTUzLDE3NjEwNzQyODYsODYyNjcwNzgwLC0yMjYwNjM0
