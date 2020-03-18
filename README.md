@@ -165,7 +165,9 @@ boost::lexical cast is a part of boost conversion framework of boost but it is t
 
 This is because boost::lexical cast internally uses streams for handling custom types ( Its specification for custom types does require that and  streams from their nature have a significant amount of overhead.) , Also boost::lexical cast provides a lot features that are not of our use but carry significant overhead for even simple types such as int.
 
-Also we are always trying to convert string to some type which literally means we are trying to parse a values. For this boost provides a special purpose library for writing parsers called boost::spirit::qi and one of the functions in this library is called parse which takes linear time ( 0 overhead ) for processing numeric values. 
+Also we are always trying to convert string to some type which literally means we are trying to parse a values. For this boost provides a special purpose library for writing parsers called boost::spirit::qi and one of the functions in this library is called parse which takes linear time ( 0 overhead ) for processing numeric values. Being barebones in nature this is the fastest in town with performance order of magnitudes higher than the lexical cast.
+
+Here is the benchmark result for the same (P) 
 	
 
 
@@ -191,7 +193,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAyOTA3NTYsODgyNjU1NTA5LDEyMD
+eyJoaXN0b3J5IjpbLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMD
 A5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC0yMzg0Mzgz
 NDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgyMjE0LC
 0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MSwtMjA2
