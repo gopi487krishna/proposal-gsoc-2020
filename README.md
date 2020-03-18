@@ -189,7 +189,7 @@ To better understand this design pattern and its advantages kindly refer to the 
 
  **Bug** :
 
-Everytime 80 bytes are read and pushed into the vector without any checking. This introduces a bug i.e if the card is blank i.e It just contains comment and or nothing else, that 80 bytes is also pushed into the vector. Calling **key()** function would just return **8** blanks . In  in worst case **key()** can also return some of the comment part if comment starts before 8th position which can be *misinterpreted* as keyword ( Due to lack of checks) and in turn provide false info. Also it wastes additional 80 bytes for no reason. Blanks must be handled separately and according to me should not be stored at all.
+Everytime 80 bytes are read and pushed into the vector without any checking. This introduces a bug i.e if the card is blank i.e It just contains comment and or nothing else, that 80 bytes is also pushed into the vector. Calling **key()** function would just return **8** blanks . In  in worst case **key()** can also return some of the comment part if comment starts before 8th position which can be *misinterpreted* as keyword ( Due to lack of checks) and in turn provide false info. Also it wastes additional 80 bytes for no reason. Blanks must be handled separately and accordingly should not be stored at all.
  
  **Space Problems** :
 
@@ -229,7 +229,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjU0ODU1OSw3NDAwMzkzMDksMTc5NT
+eyJoaXN0b3J5IjpbMTkzOTI2NTA1NSw3NDAwMzkzMDksMTc5NT
 MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
 NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
 Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
