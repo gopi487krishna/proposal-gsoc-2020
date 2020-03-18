@@ -99,6 +99,9 @@ Visual Studio with  Microsoft Windows is the daily driver for all of my needs an
 
 I am familiar with Doxygen and have been using it for my GML Project with Morsa MCSS framework for automatic documentation generation of my project.
 
+## Project Proposal
+
+
 ## Programming Competency
 **Problem Statement** 
 
@@ -117,11 +120,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcwMz
-ExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLTYwMjg5MjU1
-MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYzNDg1LDk3OD
-U4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4
-MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3NjcxOCwzNT
-M1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2
-OF19
+eyJoaXN0b3J5IjpbMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3ND
+I1Nzc4MDIsNzAzMTEyOTMyLC0xODk5NjQxMzY3LDY5MTU2ODk3
+NSwtNjAyODkyNTUzLDE3NjEwNzQyODYsODYyNjcwNzgwLC0yMj
+YwNjM0ODUsOTc4NTg1NTY0LC0xMDI1OTA5MTQ1LDQxOTA0NzY5
+NSwtMTAzNjE2NDgyLC00MDg3MjIyNSwxMzM4MDg1ODE1LC0xOT
+A1NTc2NzE4LDM1MzUwNDMyMywtMTYwNDIxNzM3OSw1NjY3Mjkx
+OTFdfQ==
 -->
