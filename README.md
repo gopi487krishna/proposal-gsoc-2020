@@ -220,8 +220,12 @@ Now comparing the size differences:
 Without the use of variant also this problem can be solved . After trimming the spaces and comments ( optional ) from card we can use **temporary swap idiom (constant complexity)** or **shrink_to_fit( Complexity unspecified )**  that will optimize the space
 
 ```cpp
-std::string(card).swap(card);
+std::string(card).swap(card); // Card's capacity now becomes length()
+//or
+card.shrink_to_fit(); //  Does the same thing in some implementations
 ```
+
+
 
  
  
@@ -250,11 +254,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU5NDEzODYsNzQwMDM5MzA5LDE3OT
-UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
-MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
-k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
-MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMT
-k0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcw
-MzExMjkzMl19
+eyJoaXN0b3J5IjpbMTA4MzI0OTY0Nyw3NDAwMzkzMDksMTc5NT
+MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
+NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
+Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
+NTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOT
+QsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAz
+MTEyOTMyXX0=
 -->
