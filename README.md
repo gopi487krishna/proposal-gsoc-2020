@@ -152,7 +152,7 @@ ascii_table.setData(new_data_array); // New data array is  basically serialized 
 fits.writeChangesTo(filename);// How this works is explained below
 ```
 **Implementation details ( Only Summarized)**
-
+Currently if we look at the codebase for boost::astronomy::io we can see that the file reading facility has been spread over the entire code base making it diffult to 
 **Improvements with the Existing Code Base**
 
 
@@ -180,7 +180,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY3OTcxNTQsLTIzODQzODM0MCwtMT
+eyJoaXN0b3J5IjpbLTE5NDY0NzM4ODQsLTIzODQzODM0MCwtMT
 AxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLTE4Mzkw
 OTQ1NjEsLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OT
 g4LDc0MjU3NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkx
