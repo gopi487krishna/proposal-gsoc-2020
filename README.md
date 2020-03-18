@@ -108,14 +108,15 @@ It consists of a collection of functions that facilitates the user in communicat
 
 **How would the interface be Used ?**
 
-To read a FITS file we just use the read function with filename and filemode as argument
+To read a FITS file we just use the read function with filename and file mode as argument ( Kindly refer to [competency test]() solution for a basic implementation )
 ```cpp
 fits.read(filename, filemode);
 ```
-Basically we can support three types of file modes namely
+Basically we can support three types of file modes (This will require some changes in the codebase of parsers)  namely
 1. Stream Mode  ( Medium Files )
 2. Buffered Mode ( Small Files )
 3. Memory Mapped Mode ( Large Files)
+
 
 
 
@@ -137,11 +138,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTI3NDU2MCwtMTgzOTA5NDU2MSwtOD
-g3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3
-ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLT
-YwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYz
-NDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLT
-EwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3
-NjcxOF19
+eyJoaXN0b3J5IjpbOTIwMjIxNzIyLC0xODM5MDk0NTYxLC04OD
+c1MTMxOTQsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4
+MDIsNzAzMTEyOTMyLC0xODk5NjQxMzY3LDY5MTU2ODk3NSwtNj
+AyODkyNTUzLDE3NjEwNzQyODYsODYyNjcwNzgwLC0yMjYwNjM0
+ODUsOTc4NTg1NTY0LC0xMDI1OTA5MTQ1LDQxOTA0NzY5NSwtMT
+AzNjE2NDgyLC00MDg3MjIyNSwxMzM4MDg1ODE1LC0xOTA1NTc2
+NzE4XX0=
 -->
