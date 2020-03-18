@@ -143,10 +143,13 @@ Making changes to a particular HDU is also pretty easy. Just make changes in the
 auto& primary_hdu=get<primary_hdu>(fits[0]);
 auto& ascii_table=get<ascii_table>(fits[1]);
 
-primary_hdu.insert("BSCALE",2.0,"Set the Scaling Factor);
+primary_hdu.insert("BSCALE",2.0,"Set the Scaling Factor");
+// Other Extentions can also be modified at the same time
 ascii_table.insert("SOMETHING", SOMEVALUE,"Comment");
-ascii_table.setData(new_data_array);
-fits.writeChangesTo(filename);
+ascii_table.setData(new_data_array);// New data array is  basically serialized version of data to string.
+
+// After all the changes have been made
+fits.writeChangesTo(filename);// How this works is explained below
 ```
 
 **Improvements with the Existing Code Base**
@@ -176,7 +179,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2OTMyMjMyLC0xMzQ2NDgyMjE0LC0xOD
+eyJoaXN0b3J5IjpbNzcwNTQxNTM2LC0xMzQ2NDgyMjE0LC0xOD
 M5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MSwtMjA2MTMw
 OTk4OCw3NDI1Nzc4MDIsNzAzMTEyOTMyLC0xODk5NjQxMzY3LD
 Y5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEwNzQyODYsODYyNjcw
