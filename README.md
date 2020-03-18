@@ -182,7 +182,7 @@ To better understand this design pattern and its advantages kindly refer to the 
  **Parsing values when they are read and then stored instead of storing 80 bytes chunks as cards**
  
  Currently the fits module stores its cards as a string of 80 bytes in a vector ( without any checks ). There are some problems associated with it in terms of bug, time and space required ).
- **Bug** Everytime 80 bytes are read and pushed into the vector without any checking. This introduces a bug i.e if the card is blank i.e It just contains comment and or nothing else, that 80 bytes is also pushed into the vector. Calling **key** function would just return **8** blanks which in worst case can also return the comment part if comment starts less than 8
+ **Bug** Everytime 80 bytes are read and pushed into the vector without any checking. This introduces a bug i.e if the card is blank i.e It just contains comment and or nothing else, that 80 bytes is also pushed into the vector. Calling **key()** function would just return **8** blanks . In  in worst case **key()** can also return some of the comment part if comment starts before 8th position which can 
  
 	
 
@@ -209,11 +209,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjYxNDIyNDcsMTk5NjU3NzE2MywxMj
-AyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5
-MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC
-0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgz
-OTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMD
-k5ODgsNzQyNTc3ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2
-OTE1Njg5NzVdfQ==
+eyJoaXN0b3J5IjpbLTM1OTk5NjEwNCwxOTk2NTc3MTYzLDEyMD
+IyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkx
+MTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC0yMzg0MzgzNDAsLT
+EwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgyMjE0LC0xODM5
+MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MSwtMjA2MTMwOT
+k4OCw3NDI1Nzc4MDIsNzAzMTEyOTMyLC0xODk5NjQxMzY3LDY5
+MTU2ODk3NV19
 -->
