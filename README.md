@@ -107,6 +107,7 @@ Develope a small class/function which will be able to read the primary header (P
 **Solution**
 Kindly visit  [Fits Reader](https://github.com/gopi487krishna/FITS_primary_header)
 (github repo that hosts the solution for Programming Competency Test ) for instructions and implementation details on how to use the Fits Reader API (README).
+
 Just to summarize the Fits Reader API can :
 
  - Read Primary Header or any other extension header  of a FITS File
@@ -116,11 +117,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNTc3ODAyLDcwMzExMjkzMiwtMTg5OT
-Y0MTM2Nyw2OTE1Njg5NzUsLTYwMjg5MjU1MywxNzYxMDc0Mjg2
-LDg2MjY3MDc4MCwtMjI2MDYzNDg1LDk3ODU4NTU2NCwtMTAyNT
-kwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4MiwtNDA4NzIyMjUs
-MTMzODA4NTgxNSwtMTkwNTU3NjcxOCwzNTM1MDQzMjMsLTE2MD
-QyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2OCw2MTc1NTE3MjBd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcwMz
+ExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLTYwMjg5MjU1
+MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYzNDg1LDk3OD
+U4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLTEwMzYxNjQ4
+MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3NjcxOCwzNT
+M1MDQzMjMsLTE2MDQyMTczNzksNTY2NzI5MTkxLDczOTY0MjU2
+OF19
 -->
