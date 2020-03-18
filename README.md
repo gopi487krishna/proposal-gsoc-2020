@@ -146,7 +146,7 @@ auto& ascii_table=get<ascii_table>(fits[1]);
 primary_hdu.insert("BSCALE",2.0,"Set the Scaling Factor");
 // Other Extentions can also be modified at the same time
 ascii_table.insert("SOMETHING", SOMEVALUE,"Comment");
-ascii_table.setData(new_data_array);// New data array is  basically serialized version of data to string.
+ascii_table.setData(new_data_array); // New data array is  basically serialized version of data to string.
 
 // After all the changes have been made
 fits.writeChangesTo(filename);// How this works is explained below
@@ -179,11 +179,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNTQxNTM2LC0xMzQ2NDgyMjE0LC0xOD
-M5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MSwtMjA2MTMw
-OTk4OCw3NDI1Nzc4MDIsNzAzMTEyOTMyLC0xODk5NjQxMzY3LD
-Y5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEwNzQyODYsODYyNjcw
-NzgwLC0yMjYwNjM0ODUsOTc4NTg1NTY0LC0xMDI1OTA5MTQ1LD
-QxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3MjIyNSwxMzM4MDg1
-ODE1XX0=
+eyJoaXN0b3J5IjpbLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMz
+Q2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0
+NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAzMTEyOTMyLC
+0xODk5NjQxMzY3LDY5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEw
+NzQyODYsODYyNjcwNzgwLC0yMjYwNjM0ODUsOTc4NTg1NTY0LC
+0xMDI1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3
+MjIyNV19
 -->
