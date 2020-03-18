@@ -228,9 +228,9 @@ But still the spaces within the card are not accounted for and may still be larg
 
 **Time** : 
 
-Both  of the problems stated above are not as critical as this one. Every time a call to the **value_of ( )** function takes place, the respective card from the vector is fetched in constant time ( use of unordered_map ). Till here its fine. But then the code calls the lexical cast to convert the value to the required type and this is done each time **value_of** is called ( Even if the same keyword is looked up multiple times by the user ) that defeats the whole purpose as fetching values becomes always slow.
+Both  of the problems stated above are not as critical as this one. Every time a call to the **value_of ( )** function takes place, the respective card from the vector is fetched in constant time ( use of unordered_map ). Till here its fine. But then the code calls the lexical cast to convert the value to the required type and this is done each time **value_of ( )** is called ( Even if the same keyword is looked up multiple times by the user ) we can cache the values parsed once but again that would require extra space the total of which it will be quite large.
 
-Moreover if this function is inline ( which it will be for the most cases ) a significant amount of code bloat is encountered.'
+Moreover if this function is inline ( which it will be for the most cases ) a significant amount of code bloat is encountered as well.
 
 Why parse the same value again and again if it can be first parsed once and then stored. Then the lookup cost will be very small ( order of magnitudes smaller ).
 
@@ -264,11 +264,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTE4Mjg2NiwzNjgyNjIyMTEsMTI2MD
-YxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYz
-LDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMD
-A5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC0yMzg0Mzgz
-NDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgyMjE0LC
-0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MSwtMjA2
-MTMwOTk4OF19
+eyJoaXN0b3J5IjpbNjE2NzYzNjgsMzY4MjYyMjExLDEyNjA2MT
+Q1NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2Mywx
+MjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOT
+g5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQw
+LC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMT
+gzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEz
+MDk5ODhdfQ==
 -->
