@@ -191,7 +191,8 @@ To better understand this design pattern and its advantages kindly refer to the 
 
 Everytime 80 bytes are read and pushed into the vector without any checking. This introduces a bug i.e if the card is blank i.e It just contains comment and or nothing else, that 80 bytes is also pushed into the vector. Calling **key()** function would just return **8** blanks . In  in worst case **key()** can also return some of the comment part if comment starts before 8th position which can be *misinterpreted* as keyword ( Due to lack of checks) and in turn provide false info. Also it wastes additional 80 bytes for no reason. Blanks must be handled separately and according to me should not be stored at all.
  
- **Space Problems** 
+ **Space Problems** :
+
 Every card requires 80 bytes but is it really necessary? What i am trying to say is instead of storing 80 bytes chunks we can parse the keyword and value seperately and then store them in an unordered map.
 
 Now the obvious problem is how to save a value of different types in a single variable ?
@@ -228,11 +229,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzgyMzgzNDcsNzQwMDM5MzA5LDE3OT
-UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
-MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
-k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
-MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMT
-k0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcw
-MzExMjkzMl19
+eyJoaXN0b3J5IjpbMTc5NjU0ODU1OSw3NDAwMzkzMDksMTc5NT
+MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
+NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
+Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
+NTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOT
+QsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAz
+MTEyOTMyXX0=
 -->
