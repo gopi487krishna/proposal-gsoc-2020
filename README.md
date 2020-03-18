@@ -152,7 +152,7 @@ ascii_table.setData(new_data_array); // New data array is  basically serialized 
 fits.writeChangesTo(filename);// How this works is explained below
 ```
 **Implementation details ( Only Summarized)**
-read
+**read()** : The read function takes a filename and file mode as argument and internally calls each of these classes ( ascii_table, binary to parse the fits file
 
 **Improvements with the Existing Code Base**
 
@@ -181,7 +181,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODU5NTI1NCwtMTk0NjQ3Mzg4NCwtMj
+eyJoaXN0b3J5IjpbMTQ2ODkyMTE3MCwtMTk0NjQ3Mzg4NCwtMj
 M4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4
 MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNj
 EsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcwMzExMjkzMiwtMTg5
