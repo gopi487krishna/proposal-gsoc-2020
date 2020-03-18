@@ -168,7 +168,7 @@ This is because boost::lexical cast internally uses streams for handling custom 
 Also we are always trying to convert string to some type which literally means we are trying to parse a values. For this boost provides a special purpose library for writing parsers called boost::spirit::qi and one of the functions in this library is called parse which takes linear time ( 0 overhead ) for processing numeric values. Being barebones in nature this is the fastest in town with considerable performance difference over lexical cast.
 
 **Strict Conformance to the FITS standard**
-At
+Currently the codebase for **fits module** does not confirm to the fits standard in many places such as testing whether the keywords are in correct format (   or checking whether the requires
 
  
 	
@@ -196,11 +196,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5NTk0MjA5LC0xMTU2NzE2MTY0LDg4Mj
-Y1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4
-NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMT
-M0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYy
-NDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcwMzExMjkzMi
-wtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLTYwMjg5MjU1MywxNzYx
-MDc0Mjg2XX0=
+eyJoaXN0b3J5IjpbMTM2MjA1ODMzOSwtMTE1NjcxNjE2NCw4OD
+I2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4
+ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLT
+EzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2
+MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMxMTI5Mz
+IsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC02MDI4OTI1NTMsMTc2
+MTA3NDI4Nl19
 -->
