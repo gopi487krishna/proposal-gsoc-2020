@@ -179,6 +179,7 @@ To better understand this design pattern and its advantages kindly refer to the 
 
 > Parts of design that can be changed should be allowed to change
 
+ **Parsing values when they are read and then stored**
  
 	
 
@@ -205,11 +206,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI0NTczMTgsMTIwMjI4MTA0MiwtMT
-E1NjcxNjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUy
-NTQsLTE5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Ni
-w3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4
-NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3Nz
-gwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC02
-MDI4OTI1NTNdfQ==
+eyJoaXN0b3J5IjpbMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMT
+U2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1
+NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LD
+c3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3
+NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3OD
+AyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLTYw
+Mjg5MjU1M119
 -->
