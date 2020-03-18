@@ -160,7 +160,10 @@ fits.writeChangesTo(filename);// How this works is explained below
 After reading out the code base for boost::astronomy::io i found a few things that could be improved in the library
 
   **Use of boost::spirit::qi instead of lexical of boost::lexical cast for conversion of value_string to its respective type**
-   boost::lexical cast is a part of boost conversion framework of boost but it is too slow for our needs as compared to boost::spirit::qi::parse.
+  
+boost::lexical cast is a part of boost conversion framework of boost but it is too slow for our needs as compared to boost::spirit::qi::parse.
+
+This is because boost::lexical cast internally uses streams for handling custom types ( Its specification for custom types does require that and  streams from their nature have a significant amount of overhead.)
 	
 
 
@@ -186,7 +189,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4MDA3MDg2LDg4MjY1NTUwOSwxMjAwOT
+eyJoaXN0b3J5IjpbLTIwMjI2NTM5LDg4MjY1NTUwOSwxMjAwOT
 g5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQw
 LC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMT
 gzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEz
