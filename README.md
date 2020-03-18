@@ -137,7 +137,11 @@ OR
 ```cpp
 auto primary_dataarr=get<something>(primary_hdu.data());
 ```
-Making changes to a perticular
+Making changes to a particular HDU is also pretty easy. Just make changes in the instance itself i.e
+
+```cpp
+p
+```
 
 
 
@@ -160,7 +164,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU5MTU3MDQsLTE4MzkwOTQ1NjEsLT
+eyJoaXN0b3J5IjpbLTIwMzY1NDA1MzAsLTE4MzkwOTQ1NjEsLT
 g4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3
 NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC
 02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2
