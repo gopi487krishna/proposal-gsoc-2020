@@ -217,7 +217,7 @@ Now comparing the size differences:
  - With variant  : ( 8 (keyword) + 24 (values) )n = 32n
  - Difference : 48 bytes !!
 
-
+Without the use of variant also this problem can be solved . Using **temporary swap idiom (constant complexity)** or **shrink_to_fit()**
  
  
 	
@@ -245,11 +245,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzUyMjY1Nyw3NDAwMzkzMDksMTc5NT
-MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
-NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
-Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
-NTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOT
-QsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAz
-MTEyOTMyXX0=
+eyJoaXN0b3J5IjpbMzQ1NjAxNzk5LDc0MDAzOTMwOSwxNzk1Mz
+A3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2
+NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5ND
+Y0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1
+MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NC
+wxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMx
+MTI5MzJdfQ==
 -->
