@@ -201,14 +201,18 @@ Well the  low cost compile time solution is to use **std::variant**. A type with
 ```cpp
 typedef std::variant<std::monostate,bool,long long,double,std::string,std::complex<int>,std::complex<double>> value_type;
 ```
-Although the type looks large ( A variant is a type-safe union and the memory required by union is the size of its largest type mentioned in it ), the actual size consumed by an object of  **value_type** is just 40 bytes in both **MSVC** and **gcc**. The real size should have been around 24 bytes only but is more due to **String Buffer Optimization**.
+Although the type looks large ( A variant is a type-safe union and the memory required by union is the size of its largest type mentioned in it ), the actual size consumed by an object of  **value_type** is just 40 bytes in both **MSVC** and **gcc**. The real size should have been around 24 bytes only but is more due to **String Buffer Optimization( 32 bytes buffer)**.
 
 Now comparing the size differences:
 
 (SBO Enabled)
 
- - Current case : 80n ( Where n is the number of cards )
- - With variant : (32 (Keyword )
+ - Current Case : 80n ( Where n is the number of cards )
+ - With variant : (32 (Keyword) + 40(values) ) n 
+
+(SBO Disabled)
+
+ - Current Case :  Still 
 
  
  
@@ -237,11 +241,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTE2MTM3Nyw3NDAwMzkzMDksMTc5NT
-MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
-NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
-Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
-NTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOT
-QsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAz
-MTEyOTMyXX0=
+eyJoaXN0b3J5IjpbLTExODQ0MzU5OTQsNzQwMDM5MzA5LDE3OT
+UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
+MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
+k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
+MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMT
+k0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcw
+MzExMjkzMl19
 -->
