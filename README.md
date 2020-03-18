@@ -157,6 +157,7 @@ fits.writeChangesTo(filename);// How this works is explained below
  Now introducing the file mode  creates a host of problems in itself but is not disposable either. ( The performance of memory_mapped file is way more than that of normal fstreams Kindly consult the competency test solution for a benchmark result ). So in order to support multiple file modes we would have to provide a small wrapper interface that encapsulates the (fstream, memory_map, buffer ) interface and provides  same type of calls for reading data or  setting the pointers in both the interfaces ( This is actually quite easy and 
 
 **Improvements with the Existing Code Base**
+
 After reading out the code base for boost::astronomy::io i found a few things that could be improved in the library
 
   **Use of boost::spirit::qi instead of lexical of boost::lexical cast for conversion of value_string to its respective type**
@@ -222,11 +223,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMDM5MzA5LDE3OTUzMDc4OTksMTk5Nj
-U3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUw
-OSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMj
-M4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4
-MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNj
-EsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcwMzExMjkzMiwtMTg5
-OTY0MTM2N119
+eyJoaXN0b3J5IjpbLTEzMjU5NDY1OTMsNzQwMDM5MzA5LDE3OT
+UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
+MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
+k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
+MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMT
+k0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcw
+MzExMjkzMl19
 -->
