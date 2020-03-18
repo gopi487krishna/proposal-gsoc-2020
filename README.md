@@ -234,9 +234,9 @@ Moreover if this function is inline ( which it will be for the most cases ) a si
 
 Why parse the same value again and again if it can be first parsed once and then stored. Then the lookup cost will be very small ( order of magnitudes smaller ).
 
-This is the reason why i suggest to parse and store the values during reading itself. One question that comes in mind is how the type of values will be detected for each keyword. Simple we wont detect it, rather we will try parsing the value to each of the types in this order ( bool , std::string, long long, std::complex&lt;long long&gt;, double, ,std::complex&lt;double&gt;  ) It may seem like thats costly but actually its not if the parsing is done in the same order with boost::spirit::qi::parse  ( This is because the results of previous test can be reused for next types ( In competency test solution this advantage is not utilized yet but future version of it will ). 
+This is the reason why i suggest to parse and store the values during reading itself. One question that comes in mind is how the type of values will be detected for each keyword. Simple we wont detect it, rather we will try parsing the value to each of the types in this order ( bool , std::string, long long, std::complex&lt;long long&gt;, double, ,std::complex&lt;double&gt;  ) It may seem like thats costly but actually its not ( As the average times will be less and the reason given in next point)  if the parsing is done in the same order with boost::spirit::qi::parse  ( This is because the results of previous test can be reused for next types ( In competency test solution this advantage is not utilized yet but future version of it will ). 
 
-Also one another advantage ( I cannot prove it as of now ) is that same kind of operations ( read card, parse keyword, value) are being repeated again and again
+Also one another advantage ( I cannot prove it as of now ) is that same kind of operations ( read card, parse keyword, value) is being repeated again and again and that means the CPU can cache it completely which will surely  improve the average value_parse time performance greatly
  
  
 	
@@ -265,7 +265,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNDA3ODA1LDM2ODI2MjIxMSwxMjYwNj
+eyJoaXN0b3J5IjpbNzMzMzQwNDI0LDM2ODI2MjIxMSwxMjYwNj
 E0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMs
 MTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1MDksMTIwMD
 k4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0
