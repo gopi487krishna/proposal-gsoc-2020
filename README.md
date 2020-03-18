@@ -140,14 +140,14 @@ auto primary_dataarr=get<something>(primary_hdu.data());
 Making changes to a particular HDU is also pretty easy. Just make changes in the instance itself i.e
 
 ```cpp
-auto primary_hdu=get<primary_hdu>(fits[0]);
-auto ascii_table=get<ascii_table>(fits[1]);
+auto& primary_hdu=get<primary_hdu>(fits[0]);
+auto& ascii_table=get<ascii_table>(fits[1]);
 
 primary_hdu.insert("BSCALE",2.0,"Set the Scaling Factor);
 // Other Extentions can also be modified at the same time
 ascii_table.insert("SOMETHING", SOMEVALUE,"Comment");
 // After all the changes have been made
-
+fits.writeChangesTo("filename")
 ```
 
 
@@ -172,7 +172,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc4MTE2NDcsLTE4MzkwOTQ1NjEsLT
+eyJoaXN0b3J5IjpbLTE2MzUxNjY4NjAsLTE4MzkwOTQ1NjEsLT
 g4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3
 NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC
 02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2
