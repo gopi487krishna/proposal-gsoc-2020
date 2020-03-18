@@ -159,7 +159,7 @@ fits.writeChangesTo(filename);// How this works is explained below
 **Improvements with the Existing Code Base**
 After reading out the code base for boost::astronomy::io i found a few things that could be improved in the library
 
- - Use of boost::spirit::qi instead of lexical 
+ - **Use of boost::spirit::qi instead of lexical of boost::lexical cast for conversion of value_string to its respective type**   
 
  
 
@@ -181,7 +181,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzI2MTYwMCw4ODI2NTU1MDksMTIwMD
+eyJoaXN0b3J5IjpbLTc1MzQwNzA3NSw4ODI2NTU1MDksMTIwMD
 k4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0
 MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLT
 E4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYx
