@@ -208,11 +208,13 @@ Now comparing the size differences:
 (SBO Enabled)
 
  - Current Case : 80n ( Where n is the number of cards )
- - With variant : (32 (Keyword) + 40(values) ) n 
+ - With variant : (32 (Keyword) + 40(values) ) n  = 72n
+ - Difference : 8 bytes
 
 (SBO Disabled)
 
- - Current Case :  Still 
+ - Current Case :  Still 80n
+ - With variant  : ( 8 (keyword) + 24 (values) )n = 
 
  
  
@@ -241,11 +243,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ0MzU5OTQsNzQwMDM5MzA5LDE3OT
-UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
-MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
-k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
-MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMT
-k0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcw
-MzExMjkzMl19
+eyJoaXN0b3J5IjpbNjc5OTY0ODcxLDc0MDAzOTMwOSwxNzk1Mz
+A3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2
+NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5ND
+Y0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1
+MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NC
+wxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMx
+MTI5MzJdfQ==
 -->
