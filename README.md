@@ -251,6 +251,7 @@ This is the reason why i suggest to parse and store the values during reading it
 Develope a small class/function which will be able to read the primary header (Plus points for developing ways to enter the header-value in the primary header and writing into the file) 
 
 **Solution**
+
 Kindly visit  [Fits Reader](https://github.com/gopi487krishna/FITS_primary_header)
 (github repo that hosts the solution for Programming Competency Test ) for instructions and implementation details on how to use the Fits Reader API (README).
 
@@ -263,11 +264,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NT
-MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
-NjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOT
-Q2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQx
-NTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOT
-QsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAz
-MTEyOTMyXX0=
+eyJoaXN0b3J5IjpbMzY4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMD
+M5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQy
+LC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNT
+c1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTky
+MTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MS
+wtODg3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQy
+NTc3ODAyXX0=
 -->
