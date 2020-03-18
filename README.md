@@ -217,7 +217,12 @@ Now comparing the size differences:
  - With variant  : ( 8 (keyword) + 24 (values) )n = 32n
  - Difference : 48 bytes !!
 
-Without the use of variant also this problem can be solved . Using **temporary swap idiom (constant complexity)** or **shrink_to_fit()**
+Without the use of variant also this problem can be solved . After trimming the spaces and comments ( optional ) from card we can use **temporary swap idiom (constant complexity)** or **shrink_to_fit( Complexity unspecified )**  that will optimize the space
+
+```cpp
+std::string(card).swap(card);
+```
+
  
  
 	
@@ -245,11 +250,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1NjAxNzk5LDc0MDAzOTMwOSwxNzk1Mz
-A3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2
-NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5ND
-Y0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1
-MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NC
-wxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMx
-MTI5MzJdfQ==
+eyJoaXN0b3J5IjpbLTIwMTU5NDEzODYsNzQwMDM5MzA5LDE3OT
+UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
+MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
+k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
+MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMT
+k0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcw
+MzExMjkzMl19
 -->
