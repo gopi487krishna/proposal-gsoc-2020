@@ -125,7 +125,11 @@ auto primary_hdu= get<primary_hdu>(fits["primary_hdu"]);
 ```
 After obtaining the instance the user can do anything such as
 ```cpp
-auto mean_value= 
+auto bscale_val= get<double>(primary_hdu["BSCALE"]);
+if(bscale_val.has_value()){
+std::cout<<"BSCALE : " << *bscale_val; 
+} 
+
 ```
 
 
@@ -150,7 +154,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQxNDgxOTIsLTE4MzkwOTQ1NjEsLT
+eyJoaXN0b3J5IjpbLTEwMTI1MDU3NTQsLTE4MzkwOTQ1NjEsLT
 g4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3
 NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC
 02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2
