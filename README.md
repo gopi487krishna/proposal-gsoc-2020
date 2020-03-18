@@ -151,7 +151,8 @@ ascii_table.setData(new_data_array); // New data array is  basically serialized 
 // After all the changes have been made
 fits.writeChangesTo(filename);// How this works is explained below
 ```
-
+**Implementation details ( Only Summarized)**
+The complete fits struct  will need to be reworked. This  
 **Improvements with the Existing Code Base**
 
 
@@ -179,11 +180,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMz
-Q2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0
-NDA2MSwtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAzMTEyOTMyLC
-0xODk5NjQxMzY3LDY5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEw
-NzQyODYsODYyNjcwNzgwLC0yMjYwNjM0ODUsOTc4NTg1NTY0LC
-0xMDI1OTA5MTQ1LDQxOTA0NzY5NSwtMTAzNjE2NDgyLC00MDg3
-MjIyNV19
+eyJoaXN0b3J5IjpbLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3Nz
+A1NDE1MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUx
+MzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMi
+w3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC02MDI4
+OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2MzQ4NS
+w5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2
+MTY0ODJdfQ==
 -->
