@@ -155,8 +155,9 @@ fits.writeChangesTo(filename);// How this works is explained below
 **read()** : The read function takes a filename and file mode as argument and internally calls each of these classes ( ascii_table, binary_table, primary_hdu,image_extention ) to parse the fits file.
 
  Now introducing the file mode  creates a host of problems in itself but is not disposable either. ( The performance of memory_mapped file is way more than that of normal fstreams Kindly consult the competency test solution for a benchmark result ). So in order to support multiple file modes we would have to provide a small wrapper interface that encapsulates the (fstream, memory_map, buffer ) interface and provides  same type of calls for reading data or  setting the pointers in both the interfaces ( This is actually quite easy and 
-**Improvements with the Existing Code Base**
 
+**Improvements with the Existing Code Base**
+After reading ou
 
 
 
@@ -182,11 +183,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NzU1MjU0LC0xOTQ2NDczODg0LC0yMz
-g0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgy
-MjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MS
-wtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAzMTEyOTMyLC0xODk5
-NjQxMzY3LDY5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEwNzQyOD
-YsODYyNjcwNzgwLC0yMjYwNjM0ODUsOTc4NTg1NTY0LC0xMDI1
-OTA5MTQ1XX0=
+eyJoaXN0b3J5IjpbLTUxMjA3MTYxMCw0MDU3NTUyNTQsLTE5ND
+Y0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1
+MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NC
+wxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMx
+MTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC02MDI4OTI1NT
+MsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2MzQ4NSw5Nzg1
+ODU1NjRdfQ==
 -->
