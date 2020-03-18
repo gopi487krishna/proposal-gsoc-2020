@@ -159,7 +159,11 @@ fits.writeChangesTo(filename);// How this works is explained below
 **Improvements with the Existing Code Base**
 I would like to suggest out a few changes/ issues in the codebase of boost::astronomy::io to make it flexible, perform better , confirm to the fits standard
 
- - Currently the fits module does not confirm strictly to the fits standards
+ - Currently the fits module does not confirm strictly to the fits standards 
+	 - 
+ - List item
+
+ 
 
 ## Programming Competency
 **Problem Statement** 
@@ -179,11 +183,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5ND
-Y0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1
-MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NC
-wxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMx
-MTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC02MDI4OTI1NT
-MsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2MzQ4NSw5Nzg1
-ODU1NjRdfQ==
+eyJoaXN0b3J5IjpbLTEyMjU5MTQwNDUsMTIwMDk4OTExOCw0MD
+U3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5
+MjE3Niw3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1Nj
+EsLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0
+MjU3NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OT
+c1LC02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIy
+NjA2MzQ4NV19
 -->
