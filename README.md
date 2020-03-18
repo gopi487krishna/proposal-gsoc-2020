@@ -234,7 +234,7 @@ Moreover if this function is inline ( which it will be for the most cases ) a si
 
 Why parse the same value again and again if it can be first parsed once and then stored. Then the lookup cost will be very small ( order of magnitudes smaller ).
 
-This is the reason why i suggest to parse and store the values during reading itself. One question that comes in mind is how the type of values will be detected for each keyword. Simple we wont detect it, rather we will try parsing the value to each of the types in this order ( bool , long long, double, std::string, std::complex&<int>,
+This is the reason why i suggest to parse and store the values during reading itself. One question that comes in mind is how the type of values will be detected for each keyword. Simple we wont detect it, rather we will try parsing the value to each of the types in this order ( bool , long long, double, std::string, std::complex&lt;int&gt;,std::complex&lt;float&gt;  ) It may seem like thats costly but actually its not if the parsing is done in the same order with boost::spirit::qi::parse  ( This is because the results of previous test can be reused for next t
 
  
  
@@ -264,11 +264,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzk4NDM3OSwzNjgyNjIyMTEsMTI2MD
-YxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYz
-LDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMD
-A5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC0yMzg0Mzgz
-NDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgyMjE0LC
-0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MSwtMjA2
-MTMwOTk4OF19
+eyJoaXN0b3J5IjpbMzU2MjEwOTAwLDM2ODI2MjIxMSwxMjYwNj
+E0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMs
+MTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1MDksMTIwMD
+k4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0
+MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLT
+E4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYx
+MzA5OTg4XX0=
 -->
