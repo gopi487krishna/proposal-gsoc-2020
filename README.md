@@ -147,8 +147,11 @@ primary_hdu.insert("BSCALE",2.0,"Set the Scaling Factor);
 // Other Extentions can also be modified at the same time
 ascii_table.insert("SOMETHING", SOMEVALUE,"Comment");
 // After all the changes have been made
-fits.writeChangesTo("filename")
+fits.writeChangesTo(filename);// How this works is explained below
 ```
+**Problems with the Exis
+
+
 
 
 
@@ -172,11 +175,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUxNjY4NjAsLTE4MzkwOTQ1NjEsLT
-g4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3
-NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC
-02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2
-MzQ4NSw5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC
-0xMDM2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MDU1
-NzY3MThdfQ==
+eyJoaXN0b3J5IjpbMTgwODg1OTY0OCwtMTgzOTA5NDU2MSwtOD
+g3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3
+ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLT
+YwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYz
+NDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLT
+EwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3
+NjcxOF19
 -->
