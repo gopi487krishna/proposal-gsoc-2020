@@ -100,7 +100,11 @@ Visual Studio with  Microsoft Windows is the daily driver for all of my needs an
 I am familiar with Doxygen and have been using it for my GML Project with Morsa MCSS framework for automatic documentation generation of my project.
 
 ## Project Proposal
-The external API for FITS module provides a powerful yet easy ti
+The external API for FITS module provides a powerful yet easy to use API for reading and writing the FITS data.
+
+It consists of a collection of functions that facilitates the user in communicating with the internal classes of a FITS module. In other words, it binds each of the parser_classes and provides a wrapper over them through which we can communicate with the different parsers inside the fits module. 
+
+
 
 ## Programming Competency
 **Problem Statement** 
@@ -120,11 +124,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMD
-YxMzA5OTg4LDc0MjU3NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEz
-NjcsNjkxNTY4OTc1LC02MDI4OTI1NTMsMTc2MTA3NDI4Niw4Nj
-I2NzA3ODAsLTIyNjA2MzQ4NSw5Nzg1ODU1NjQsLTEwMjU5MDkx
-NDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLTQwODcyMjI1LDEzMz
-gwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0MzIzLC0xNjA0MjE3
-Mzc5XX0=
+eyJoaXN0b3J5IjpbLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOT
+Y2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMxMTI5
+MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC02MDI4OTI1NTMsMT
+c2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2MzQ4NSw5Nzg1ODU1
+NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC0xMDM2MTY0ODIsLT
+QwODcyMjI1LDEzMzgwODU4MTUsLTE5MDU1NzY3MTgsMzUzNTA0
+MzIzXX0=
 -->
