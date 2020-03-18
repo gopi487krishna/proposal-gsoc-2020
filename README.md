@@ -171,7 +171,7 @@ Also we are always trying to convert string to some type which literally means w
 Currently the codebase for **fits module** does not confirm to the fits standard in many places such as testing whether the keywords are in correct format ( Currently only 8 byte chunks are copied )  or checking whether the required keywords are present in order. Although it does not affect really for most of the applications, It can significantly create a problem if someone is trying to write a fits validator application. There is no way to confirm that the file follows the fits standards. **This** can be largely improved by introducing a change in design i.e using **parsing policy** instead of baking the rules right into the code.
 
 **Use of Parsing Policy instead of hard coding the rules**
-The fits standard is a pretty old standard and with time many changes/ features  may be introduced requiring the parser to support those. One way is to  update the code base for newer changes but can there be a better solution?  A good solution that i feel would be to use **parsing policy**
+The fits standard is a pretty old standard and with time many changes/ features  may be introduced requiring the parser to support those. One way is to  update the code base for newer changes but can there be a better solution?  A good solution that i feel would be to use **parsing policy** 
 
  
 	
@@ -199,11 +199,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4OD
-I2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4
-ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLT
-EzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2
-MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMxMTI5Mz
-IsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC02MDI4OTI1NTMsMTc2
-MTA3NDI4Nl19
+eyJoaXN0b3J5IjpbMTEyNDI3OTY3OCwxMjAyMjgxMDQyLC0xMT
+U2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1
+NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LD
+c3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3
+NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3OD
+AyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLTYw
+Mjg5MjU1M119
 -->
