@@ -106,7 +106,12 @@ It consists of a collection of functions that facilitates the user in communicat
 
 ![](https://lh3.googleusercontent.com/LOtJQQkb5PSA1VUiUi3fn3QkT6ul_uJ2Ni8XlldaxWPYHxEwsBCofk8rJOorXFcGoPUoRocrT5tOslZzgAGx2bhdC1Cm98Dnk7MrSeHYJSuagfG4w0cp_J2cBI8Vjss3Ykdvdsr-N_fhH9muVKtBeBcGQK4E07gb2HQ9qaOX2A-Kq-urnjqKHZDvfv3b6spSc-nYMull-qZVdzrKpxtBap4p2fxl46XotYJoI3ttOUpph_rFgL-0GsjcN2BcKVnZJgGgAqvmzM7BK9VDyxCbFeXAcGIZbsS94aZmbUOPr4PtHZbf4hJcrrAo3BUSW1lqAZIl-9K3V7Dm5IEGo7LN0FCi4OXeu5Qc-Tz-SxjM7MQTMDj2Tpz0dykJmR1g4MsWEJHTqidnRfSlrjr0qRS8KYhn7qco9Wr2DYiJcO3kKANAvC2rRWNhNoviwq_QgDWVrQKSJG-3VkZI-gSvU_cpLa4azFbG-eHV6ZGTW1dv52ndTCpwavb0xjoY5MH4Dbw1Tua8b_J-yX7I60oh0HBTZ6VlFovknHdqEBlNGIbxI4VejnnjsikrItYzpUByT0S9tE6Pk-3Jh5Ej-fxrQ8L2EvgSijcUEl2zcITUMKeIkU-CMYD1ilvkwg73akWF0OssqkOiv-XDrhttG0MNU5lfVJ3Nj3R5mq3qxW7XuxSdn3adPTZyuNslJW17sh-h=w700-no-tmp.jpg)
 
-**Imagined List of Functions**
+**How would the interface be Used ?**
+
+To read a FITS file we just use the read function with filename and filemode as argument
+```cpp
+
+```
 
 
 
@@ -128,11 +133,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk2MjY4ODMsLTE4MzkwOTQ1NjEsLT
-g4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3
-NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC
-02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2
-MzQ4NSw5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC
-0xMDM2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MDU1
-NzY3MThdfQ==
+eyJoaXN0b3J5IjpbMTIwMzEzNjQ1NiwtMTgzOTA5NDU2MSwtOD
+g3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3
+ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLT
+YwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYz
+NDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLT
+EwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3
+NjcxOF19
 -->
