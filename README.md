@@ -160,7 +160,7 @@ fits.writeChangesTo(filename);// How this works is explained below
 I would like to suggest out a few changes/ issues in the codebase of boost::astronomy::io to make it flexible, perform better , confirm to the fits standard
 
  - Currently the fits module does not confirm strictly to the fits standards 
-	 - 
+	 - A simple case is that of keyword parsing. Presently the keywords are just read as a chunk of 8 bytes and no checking is performed whether they consists of spaces
  - List item
 
  
@@ -183,11 +183,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU5MTQwNDUsMTIwMDk4OTExOCw0MD
-U3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5
-MjE3Niw3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1Nj
-EsLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0
-MjU3NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OT
-c1LC02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIy
-NjA2MzQ4NV19
+eyJoaXN0b3J5IjpbODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1Nz
+U1MjU0LC0xOTQ2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIx
+NzYsNzcwNTQxNTM2LC0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC
+04ODc1MTMxOTQsMTk2NjI0NDA2MSwtMjA2MTMwOTk4OCw3NDI1
+Nzc4MDIsNzAzMTEyOTMyLC0xODk5NjQxMzY3LDY5MTU2ODk3NS
+wtNjAyODkyNTUzLDE3NjEwNzQyODYsODYyNjcwNzgwLC0yMjYw
+NjM0ODVdfQ==
 -->
