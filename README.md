@@ -117,7 +117,7 @@ Basically we can support three types of file modes (This will require some chang
 2. Buffered Mode ( Small Files )
 3. Memory Mapped Mode ( Large Files)
 
-> The code given below is pseudocode but a similar working implementation for a small part of FITS module is given i Actual implementation may vary by a little, Also enforcing this kind of interface requires a little change in the main codebase.
+> The code given below is pseudocode but a similar working implementation for a small part of FITS module is given as the solution for the [competency test](https://github.com/gopi487krishna/FITS_primary_header) . Kindly refer to the competency test solution for the same. Actual implementation may vary by a little, Also enforcing this kind of interface requires a some changes in the main codebase.
 
 In order to access the primary HDU the user will have to simply write
 
@@ -137,7 +137,7 @@ OR
 ```cpp
 auto primary_dataarr=get<something>(primary_hdu.data());
 ```
-To write down the data
+Making changes to a perticular
 
 
 
@@ -160,11 +160,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTY3MzgxOSwtMTgzOTA5NDU2MSwtOD
-g3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3
-ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLT
-YwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYz
-NDg1LDk3ODU4NTU2NCwtMTAyNTkwOTE0NSw0MTkwNDc2OTUsLT
-EwMzYxNjQ4MiwtNDA4NzIyMjUsMTMzODA4NTgxNSwtMTkwNTU3
-NjcxOF19
+eyJoaXN0b3J5IjpbLTIwOTU5MTU3MDQsLTE4MzkwOTQ1NjEsLT
+g4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYxMzA5OTg4LDc0MjU3
+NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNjcsNjkxNTY4OTc1LC
+02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2NzA3ODAsLTIyNjA2
+MzQ4NSw5Nzg1ODU1NjQsLTEwMjU5MDkxNDUsNDE5MDQ3Njk1LC
+0xMDM2MTY0ODIsLTQwODcyMjI1LDEzMzgwODU4MTUsLTE5MDU1
+NzY3MThdfQ==
 -->
