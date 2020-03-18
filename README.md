@@ -152,7 +152,7 @@ ascii_table.setData(new_data_array); // New data array is  basically serialized 
 fits.writeChangesTo(filename);// How this works is explained below
 ```
 **Implementation details ( Only Summarized)**
-**read()** : The read function takes a filename and file mode as argument and internally calls each of these classes ( ascii_table, binary_table, primary_hdu,image_extention ) to parse the fits file. Now introducing the file mode  creates a host of problems in itself but is not disposable either. ( The performance of memory_mapped file is way more than that of normal fstreams Kindly consult the competency test solution for a benchmark result ). So in order to support multiple filemodes we would have   
+**read()** : The read function takes a filename and file mode as argument and internally calls each of these classes ( ascii_table, binary_table, primary_hdu,image_extention ) to parse the fits file. Now introducing the file mode  creates a host of problems in itself but is not disposable either. ( The performance of memory_mapped file is way more than that of normal fstreams Kindly consult the competency test solution for a benchmark result ). So in order to support multiple file modes we would have to provide a small wrapper interface that encapsulates the (fstream, memory_map and    
 
 **Improvements with the Existing Code Base**
 
@@ -181,11 +181,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTkxMTM0NzksLTE5NDY0NzM4ODQsLT
-IzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0
-ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2MjQ0MD
-YxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMxMTI5MzIsLTE4
-OTk2NDEzNjcsNjkxNTY4OTc1LC02MDI4OTI1NTMsMTc2MTA3ND
-I4Niw4NjI2NzA3ODAsLTIyNjA2MzQ4NSw5Nzg1ODU1NjQsLTEw
-MjU5MDkxNDVdfQ==
+eyJoaXN0b3J5IjpbODQ5MDQwNTE2LC0xOTQ2NDczODg0LC0yMz
+g0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgy
+MjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2NjI0NDA2MS
+wtMjA2MTMwOTk4OCw3NDI1Nzc4MDIsNzAzMTEyOTMyLC0xODk5
+NjQxMzY3LDY5MTU2ODk3NSwtNjAyODkyNTUzLDE3NjEwNzQyOD
+YsODYyNjcwNzgwLC0yMjYwNjM0ODUsOTc4NTg1NTY0LC0xMDI1
+OTA5MTQ1XX0=
 -->
