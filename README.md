@@ -184,7 +184,9 @@ To better understand this design pattern and its advantages kindly refer to the 
  Currently the fits module stores its cards as a string of 80 bytes in a vector ( without any checks ). There are some problems associated with it in terms of bug, time and space required ).
  **Bug** Everytime 80 bytes are read and pushed into the vector without any checking. This introduces a bug i.e if the card is blank i.e It just contains comment and or nothing else, that 80 bytes is also pushed into the vector. Calling **key()** function would just return **8** blanks . In  in worst case **key()** can also return some of the comment part if comment starts before 8th position which can be *misinterpreted* as keyword ( Due to lack of checks) and in turn provide false info. Also it wastes additional 80 bytes for no reason. Blanks must be handled separately and according to me should not be stored at all.
  
- **Space Problems** 
+ **Space Problems** Every card requires 80 bytes but is it really necessary? What i am trying to say is instead of storing 80 bytes chunks we can parse the keyword and value seperately and then store them in an unordered map.
+
+Now the obvious problem is 
  
  
 	
@@ -212,11 +214,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTEwMjI2NywxNzk1MzA3ODk5LDE5OT
-Y1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1
-MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLT
-IzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0
-ODIyMTQsLTE4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2MjQ0MD
-YxLC0yMDYxMzA5OTg4LDc0MjU3NzgwMiw3MDMxMTI5MzIsLTE4
-OTk2NDEzNjddfQ==
+eyJoaXN0b3J5IjpbNTYzNDAzNDg5LDE3OTUzMDc4OTksMTk5Nj
+U3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUw
+OSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMj
+M4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4
+MjIxNCwtMTgzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNj
+EsLTIwNjEzMDk5ODgsNzQyNTc3ODAyLDcwMzExMjkzMiwtMTg5
+OTY0MTM2N119
 -->
