@@ -163,7 +163,9 @@ After reading out the code base for boost::astronomy::io i found a few things th
   
 boost::lexical cast is a part of boost conversion framework of boost but it is too slow for our needs as compared to boost::spirit::qi::parse.
 
-This is because boost::lexical cast internally uses streams for handling custom types ( Its specification for custom types does require that and  streams from their nature have a significant amount of overhead.)
+This is because boost::lexical cast internally uses streams for handling custom types ( Its specification for custom types does require that and  streams from their nature have a significant amount of overhead.) , Also boost::lexical cast provides a lot features that are not of our use but carry significant overhead for even simple types such as int.
+
+Also we are always trying to convert string to some type which literally means we are tr
 	
 
 
@@ -189,11 +191,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI2NTM5LDg4MjY1NTUwOSwxMjAwOT
-g5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQw
-LC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMT
-gzOTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEz
-MDk5ODgsNzQyNTc3ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Ny
-w2OTE1Njg5NzUsLTYwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3
-MDc4MF19
+eyJoaXN0b3J5IjpbLTgzMjAzODI3NCw4ODI2NTU1MDksMTIwMD
+k4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0
+MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLT
+E4MzkwOTQ1NjEsLTg4NzUxMzE5NCwxOTY2MjQ0MDYxLC0yMDYx
+MzA5OTg4LDc0MjU3NzgwMiw3MDMxMTI5MzIsLTE4OTk2NDEzNj
+csNjkxNTY4OTc1LC02MDI4OTI1NTMsMTc2MTA3NDI4Niw4NjI2
+NzA3ODBdfQ==
 -->
