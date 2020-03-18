@@ -141,6 +141,7 @@ auto primary_dataarr=get<something>(primary_hdu.data());
 
 
 
+
 ## Programming Competency
 **Problem Statement** 
 
@@ -159,7 +160,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTE4MjY4NywtMTgzOTA5NDU2MSwtOD
+eyJoaXN0b3J5IjpbMTEyOTc5NzY0NywtMTgzOTA5NDU2MSwtOD
 g3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3
 ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLT
 YwMjg5MjU1MywxNzYxMDc0Mjg2LDg2MjY3MDc4MCwtMjI2MDYz
