@@ -179,7 +179,9 @@ To better understand this design pattern and its advantages kindly refer to the 
 
 > Parts of design that can be changed should be allowed to change
 
- **Parsing values when they are read and then stored**
+ **Parsing values when they are read and then stored instead of storing 80 bytes chunks as cards**
+ 
+ Currently the fits module stores its cards as a string of 80 bytes in a vector ( without any checks ). There are some problems associated with it in terms of bug, time and space required)
  
 	
 
@@ -206,11 +208,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMT
-U2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1
-NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LD
-c3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgzOTA5NDU2MSwtODg3
-NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMDk5ODgsNzQyNTc3OD
-AyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2OTE1Njg5NzUsLTYw
-Mjg5MjU1M119
+eyJoaXN0b3J5IjpbLTE1OTExOTUwNjksMTk5NjU3NzE2MywxMj
+AyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5
+MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC
+0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgz
+OTA5NDU2MSwtODg3NTEzMTk0LDE5NjYyNDQwNjEsLTIwNjEzMD
+k5ODgsNzQyNTc3ODAyLDcwMzExMjkzMiwtMTg5OTY0MTM2Nyw2
+OTE1Njg5NzVdfQ==
 -->
