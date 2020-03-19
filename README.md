@@ -200,7 +200,7 @@ auto& prime_header= get<prime_header>(fits[0]); // Internally { return hdu_colle
 // Now user can do anything with this instance
 // OR
 
-auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Try to find the class that can get converted to ascii table and check if the name return it }
+auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Traverse over the entire vector and get the names of each HDU stored and simultaneously check if the header is the one which we want ( The cost can be reduced by using find_if with a vistior pattern and a lamda to get string name }
 ```
 
 
@@ -312,11 +312,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc2NjQ4NTgsMTY0NTg2MzAyNSwtMT
-gxMzM3NDA4LC00MDI0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgz
-MDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMT
-c5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3
-MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC
-0xOTQ2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcw
-NTQxNTM2XX0=
+eyJoaXN0b3J5IjpbLTI4ODk5ODY4MywxNjQ1ODYzMDI1LC0xOD
+EzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMw
+NzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNz
+k1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1Njcx
+NjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLT
+E5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1
+NDE1MzZdfQ==
 -->
