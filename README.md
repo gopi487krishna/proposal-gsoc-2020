@@ -191,6 +191,10 @@ hdu_collection.push_back(unknown_xtention);
 }}}}
 ```
 **operator [] (int index) or operator[] (std::string hdu_name)**
+
+This function return a reference to the perticular  HDU class object that the user wants to access or make changes to.
+
+
 ## Improvements with the Existing Code Base
 
 After reading out the code base for boost::astronomy::io i found a few things that could be improved in the library
@@ -299,11 +303,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjAyODU3MywxNjQ1ODYzMDI1LC0xOD
-EzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMw
-NzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNz
-k1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1Njcx
-NjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLT
-E5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1
-NDE1MzZdfQ==
+eyJoaXN0b3J5IjpbLTExNzQ2Nzg1MzAsMTY0NTg2MzAyNSwtMT
+gxMzM3NDA4LC00MDI0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgz
+MDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMT
+c5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3
+MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC
+0xOTQ2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcw
+NTQxNTM2XX0=
 -->
