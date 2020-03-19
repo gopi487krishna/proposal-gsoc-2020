@@ -185,6 +185,7 @@ else{
 auto no_of_bytes_to_skip= unknown_xtention.no_of_bytes_to_skip();
 // no_of_bytes_to_skip() is computed  as (ABS(BITPIX)*GCOUNT*(PCOUNT+NAXIS1 X NAXIS2 X NAXIS3 X....X NAXISm ))/ 8 ( 8bit byte standard )
 //Push unknown xtention to HDU collection.
+// Based on number of bytes to skip store the data array as a string buffer only
 hdu_collection.push_back(unknown_xtention);
 // set filepos to no_of_bytes_to_skip
 // continue to next iteration
@@ -206,7 +207,7 @@ auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Traverse
 
 writeToFile() function basically writes the updated data to a new  file ( Data can be written back to original file but that can cause some problems ).  There are two ways to basically implement this function in fits module
 
- - If the cards are implemented as a chunk of 80 bytes strings stored internally ( Kindly refer to **Improvements with the Existing Code Base** section below to find out why it is bad ) then writing becomes pretty easy. Iterate over the hdu_collection and start pasting the header and and data for every HDU traversed (
+ - If the cards are implemented as a chunk of 80 bytes strings stored internally ( Kindly refer to **Improvements with the Existing Code Base** section below to find out why it is bad ) then writing becomes pretty easy. Iterate over the hdu_collection and start pasting the header and and data for every HDU traversed ( No problems with unknown 
 
   
 
@@ -320,11 +321,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzk0NDQ5NSwxOTU3MzIzODkzLDE2ND
-U4NjMwMjUsLTE4MTMzNzQwOCwtNDAyNDg5NjI1LC0xNDI3MzMw
-MjE1LDEwMjI4MzA3MzUsMzY4MjYyMjExLDEyNjA2MTQ1NzcsNz
-QwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgx
-MDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LD
-QwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2
-NTkyMTc2XX0=
+eyJoaXN0b3J5IjpbLTE4NTA3NTc1MjgsMTk1NzMyMzg5MywxNj
+Q1ODYzMDI1LC0xODEzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMz
+MDIxNSwxMDIyODMwNzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LD
+c0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4
+MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOC
+w0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAx
+NjU5MjE3Nl19
 -->
