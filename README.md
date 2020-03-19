@@ -299,7 +299,10 @@ Kindly refer to the [competency test](https://github.com/gopi487krishna/FITS_pri
 
 In the time duration of 90 days ( Not exact )
 
-First 30 D
+May : Improving the Design of FITS module and writing internal documentation for the previous part of the project. 
+
+June :
+July  :
 
    
 
@@ -324,11 +327,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTM2ODY0LC00OTUzNDAyNTksNDkzNT
-Q3MzEzLDE5NTczMjM4OTMsMTY0NTg2MzAyNSwtMTgxMzM3NDA4
-LC00MDI0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNj
-gyNjIyMTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5
-OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsOD
-gyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDcz
-ODg0XX0=
+eyJoaXN0b3J5IjpbLTYwMTk2ODE5MCwtNDk1MzQwMjU5LDQ5Mz
+U0NzMxMywxOTU3MzIzODkzLDE2NDU4NjMwMjUsLTE4MTMzNzQw
+OCwtNDAyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMz
+Y4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4
+OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LD
+g4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3
+Mzg4NF19
 -->
