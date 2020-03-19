@@ -67,6 +67,7 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
  - Last summer I also audited a course in Ethical Hacking from Internshala
 
 **My Articles**
+
 Structured Binding in C++ : https://www.geeksforgeeks.org/structured-binding-c/
 
 Attributes in C++ :
@@ -334,11 +335,11 @@ Just to summarize the Fits Reader API can :
 > Some parts of the library have not been optimized completely but will be optimized out in the next revision
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0NzQxMDAsMzA1ODMyNzYyLDE1NTQ0Mz
-g1OTIsLTQ5NTM0MDI1OSw0OTM1NDczMTMsMTk1NzMyMzg5Mywx
-NjQ1ODYzMDI1LC0xODEzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNz
-MzMDIxNSwxMDIyODMwNzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3
-LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMj
-I4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1MDksMTIwMDk4OTEx
-OF19
+eyJoaXN0b3J5IjpbODMyNTgxMjU0LDMwNTgzMjc2MiwxNTU0ND
+M4NTkyLC00OTUzNDAyNTksNDkzNTQ3MzEzLDE5NTczMjM4OTMs
+MTY0NTg2MzAyNSwtMTgxMzM3NDA4LC00MDI0ODk2MjUsLTE0Mj
+czMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3
+Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMD
+IyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkx
+MThdfQ==
 -->
