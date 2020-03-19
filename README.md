@@ -165,7 +165,15 @@ read(){
 // If parsing of primary header becomes successful push the prime_header object into a vector of HDU and check for the value of extend keyword. Else return false
 hdu_collection.push_back(prime_header);
 auto extention_present= get<bool>(prime_header["EXTEND"]);
-// if extention_present
+if (extention_present){
+while( extention_present){
+// Try reading the entire header
+
+
+}
+
+
+}
 
 }
 ```
@@ -278,7 +286,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk3MDAzNjksLTE4MTMzNzQwOCwtND
+eyJoaXN0b3J5IjpbLTE5OTEwOTM5ODAsLTE4MTMzNzQwOCwtND
 AyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMzY4MjYy
 MjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMT
 k5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1
