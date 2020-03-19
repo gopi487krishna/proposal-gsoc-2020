@@ -303,10 +303,7 @@ May : Improving the Design of FITS module and writing internal documentation for
 
 June : Writing the complete external API along with its documentation and start performing testing
 
-July  : Perform benchmarks and profiling  of the new features  written and improve the hotspots region with more optimized code. Along with that, full library testing will take place by testing the code with a significant number of FITS files ( both with or without conformance to the FITS standard ) 
-
-   
-
+July  : Perform benchmarks and profiling  of the new features  written and improve the hotspots region with more optimized code. Along with that, full library testing will take place by testing the code with a significant number of FITS files ( both with or without conformance to the FITS standard.
  
 
 ## Programming Competency
@@ -328,7 +325,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzNDU0MzA0LC00OTUzNDAyNTksNDkzNT
+eyJoaXN0b3J5IjpbOTc1OTY2MjIxLC00OTUzNDAyNTksNDkzNT
 Q3MzEzLDE5NTczMjM4OTMsMTY0NTg2MzAyNSwtMTgxMzM3NDA4
 LC00MDI0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNj
 gyNjIyMTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5
