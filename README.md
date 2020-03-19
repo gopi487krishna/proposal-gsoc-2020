@@ -93,7 +93,7 @@ Even after the **GSOC** period, I will continue to contribute to the **boost. As
 
 **What software development environments are you most familiar with (Visual Studio, Eclipse, KDevelop, etc.)?**
 
-Visual Studio with  Microsoft Windows is the daily driver for all of my needs and this is the one that i am most familiar with. Also I am proficient and can work  in Vs Code or Sublime if I am on the linux platform.
+Visual Studio with  Microsoft Windows is the daily driver for all of my needs and this is the one that i am most familiar with. Also I am proficient  in Vs Code or Sublime if I am on the linux platform.
 
 **What software documentation tool are you most familiar with (Doxygen, DocBook, Quickbook, etc.)?**
 
@@ -319,11 +319,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzNTQ3MzEzLDE5NTczMjM4OTMsMTY0NT
-g2MzAyNSwtMTgxMzM3NDA4LC00MDI0ODk2MjUsLTE0MjczMzAy
-MTUsMTAyMjgzMDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3Nyw3ND
-AwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEw
-NDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsND
-A1NzU1MjU0LC0xOTQ2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1
-OTIxNzZdfQ==
+eyJoaXN0b3J5IjpbOTY2MjgxNjc5LDQ5MzU0NzMxMywxOTU3Mz
+IzODkzLDE2NDU4NjMwMjUsLTE4MTMzNzQwOCwtNDAyNDg5NjI1
+LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMzY4MjYyMjExLDEyNj
+A2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2
+MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMj
+AwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4
+MzQwXX0=
 -->
