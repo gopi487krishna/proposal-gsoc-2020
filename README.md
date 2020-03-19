@@ -204,7 +204,7 @@ auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Traverse
 ```
 **writeToFile(filename)**
 
-writeToFile
+writeToFile() function basically writes the updated data to a new  file ( Data can be written back to original file but that can cause some problems ).  There are two ways   
 
 
 
@@ -316,11 +316,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0MjcyMzA3LDE5NTczMjM4OTMsMTY0NT
-g2MzAyNSwtMTgxMzM3NDA4LC00MDI0ODk2MjUsLTE0MjczMzAy
-MTUsMTAyMjgzMDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3Nyw3ND
-AwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEw
-NDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsND
-A1NzU1MjU0LC0xOTQ2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1
-OTIxNzZdfQ==
+eyJoaXN0b3J5IjpbMTcyNTIzNzg1OSwxOTU3MzIzODkzLDE2ND
+U4NjMwMjUsLTE4MTMzNzQwOCwtNDAyNDg5NjI1LC0xNDI3MzMw
+MjE1LDEwMjI4MzA3MzUsMzY4MjYyMjExLDEyNjA2MTQ1NzcsNz
+QwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgx
+MDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LD
+QwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2
+NTkyMTc2XX0=
 -->
