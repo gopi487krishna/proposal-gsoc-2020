@@ -155,7 +155,7 @@ fits.writeChangesTo(filename);// How this works is explained below
 
 **read()** : The read function takes a filename and file mode as argument and internally calls each of these classes ( ascii_table, binary_table, primary_hdu,image_extention ) to parse the fits file.
 
- Now introducing the file mode  creates a host of problems in itself but is not disposable either. ( The performance of memory_mapped file is way more than that of normal fstreams Kindly consult the competency test solution for a benchmark result ). So in order to support multiple file modes we would have to provide a small wrapper interface that encapsulates the (fstream, memory_map, buffer ) interface and provides  same type of calls for reading data or  setting the pointers in both the interfaces ( This is actually quite easy and 
+ Now introducing the file mode  creates a host of problems in itself but is not disposable either. ( The performance of memory_mapped file is way more than that of normal fstreams Kindly consult the competency test solution for a benchmark result ). So in order to support multiple file modes we would have to provide a small wrapper interface that encapsulates the (fstream, memory_map, buffer ) interface and provides  same type of calls for reading data or  setting the pointers in both the interfaces ( This is actually quite easy and
 
 ## Improvements with the Existing Code Base
 
@@ -265,11 +265,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNj
-gyNjIyMTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5
-OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsOD
-gyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDcz
-ODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC
-0xMzQ2NDgyMjE0LC0xODM5MDk0NTYxLC04ODc1MTMxOTQsMTk2
-NjI0NDA2MV19
+eyJoaXN0b3J5IjpbLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMD
+IyODMwNzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMw
+OSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMT
+E1NjcxNjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUy
+NTQsLTE5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Ni
+w3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4
+NzUxMzE5NF19
 -->
