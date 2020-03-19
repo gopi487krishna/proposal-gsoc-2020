@@ -66,6 +66,9 @@ I also secured 100/100 Marks in Computer Science in Class 12 CBSE Board Exams. I
  - I audited Introduction to C++ course from National Programme on Technology Enhanced Learning ( NPTEL ) and was in the 5% toppers category
  - Last summer I also audited a course in Ethical Hacking from Internshala
 
+**My Articles**
+Structured Binding in C++ :
+
 **Programming Interests**
 
 I have a considerable amount of knowledge in C++ and am quite comfortable working in C++ as C++ has been the daily driver for all my needs ( From last 2 years I have been working more on System Programming Projects than in other fields ). Also along with C++ I have good proficiency in languages such as C#, Visual Basic,  RUST, Java.
@@ -325,11 +328,11 @@ Just to summarize the Fits Reader API can :
 > Some parts of the library have not been optimized completely but will be optimized out in the next revision
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1ODMyNzYyLDE1NTQ0Mzg1OTIsLTQ5NT
-M0MDI1OSw0OTM1NDczMTMsMTk1NzMyMzg5MywxNjQ1ODYzMDI1
-LC0xODEzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMD
-IyODMwNzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMw
-OSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMT
-E1NjcxNjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUy
-NTRdfQ==
+eyJoaXN0b3J5IjpbOTgxODIwNzgxLDMwNTgzMjc2MiwxNTU0ND
+M4NTkyLC00OTUzNDAyNTksNDkzNTQ3MzEzLDE5NTczMjM4OTMs
+MTY0NTg2MzAyNSwtMTgxMzM3NDA4LC00MDI0ODk2MjUsLTE0Mj
+czMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3
+Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMD
+IyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkx
+MThdfQ==
 -->
