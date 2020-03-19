@@ -263,7 +263,7 @@ Now the obvious problem is how to save a value of different types in a single va
 Well the  low cost compile time solution is to use **std::variant**. A type with  std::variant would look something like this
 
 ```cpp
-typedef std::variant<std::monostate,bool,long long,double,std::string,std::complex<int>,std::complex<double>> value_type;
+typedef std::variant<std::monostate,bool,long long,double,std::string,std::complex<long long>,std::complex<double>> value_type;
 ```
 Although the type looks large ( A variant is a type-safe union and the memory required by union is the size of its largest type mentioned in it ), the actual size consumed by an object of  **value_type** is just 40 bytes in both **MSVC** and **gcc**. The real size should have been around 24 bytes only but is more due to **String Buffer Optimization( 32 bytes buffer)**.
 
@@ -335,11 +335,11 @@ Just to summarize the Fits Reader API can :
 > Some parts of the library have not been optimized completely but will be optimized out in the next revision
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNTgxMjU0LDMwNTgzMjc2MiwxNTU0ND
-M4NTkyLC00OTUzNDAyNTksNDkzNTQ3MzEzLDE5NTczMjM4OTMs
-MTY0NTg2MzAyNSwtMTgxMzM3NDA4LC00MDI0ODk2MjUsLTE0Mj
-czMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3
-Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMD
-IyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkx
-MThdfQ==
+eyJoaXN0b3J5IjpbMTE1ODM5MzA3Nyw4MzI1ODEyNTQsMzA1OD
+MyNzYyLDE1NTQ0Mzg1OTIsLTQ5NTM0MDI1OSw0OTM1NDczMTMs
+MTk1NzMyMzg5MywxNjQ1ODYzMDI1LC0xODEzMzc0MDgsLTQwMj
+Q4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMwNzM1LDM2ODI2MjIx
+MSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OT
+Y1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1
+MDldfQ==
 -->
