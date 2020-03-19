@@ -190,7 +190,7 @@ hdu_collection.push_back(unknown_xtention);
 // continue to next iteration
 }}}}
 ```
-
+**operator [] (int index) or operator[] (std::string hdu_name)**
 ## Improvements with the Existing Code Base
 
 After reading out the code base for boost::astronomy::io i found a few things that could be improved in the library
@@ -299,7 +299,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzMyNDc3OCwxNjQ1ODYzMDI1LC0xOD
+eyJoaXN0b3J5IjpbLTM5MjAyODU3MywxNjQ1ODYzMDI1LC0xOD
 EzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMw
 NzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNz
 k1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1Njcx
