@@ -196,7 +196,11 @@ This function returns a **reference** to the particular  HDU class object that t
 
 Usage:
 ```cpp
-auto prime_header= get<prime_header>(fits[0]); // Internally { return hdu_collection[index]
+auto& prime_header= get<prime_header>(fits[0]); // Internally { return hdu_collection[index]; )
+// Now user can do anything with this instance
+// OR
+
+auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Try to 
 ```
 
 
@@ -308,11 +312,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzODAwOTk0LDE2NDU4NjMwMjUsLTE4MT
-MzNzQwOCwtNDAyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3
-MzUsMzY4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OT
-UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
-MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
-k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
-MTUzNl19
+eyJoaXN0b3J5IjpbLTk2MjM5OTgxOSwxNjQ1ODYzMDI1LC0xOD
+EzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMw
+NzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNz
+k1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1Njcx
+NjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLT
+E5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1
+NDE1MzZdfQ==
 -->
