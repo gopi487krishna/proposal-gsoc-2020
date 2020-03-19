@@ -322,14 +322,14 @@ Just to summarize the Fits Reader API can :
  - Write updated primary header data back to the FITS file
  - Supports custom parsing policies that allows the programmer to specify his own set of parsing rules for FITS ( This is the very reason all different types of headers can be parsed and stored using this API).  
 
-
+> Some parts of the library have not been optimized completely but will be optimized out in the next revision
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDQzODU5MiwtNDk1MzQwMjU5LDQ5Mz
-U0NzMxMywxOTU3MzIzODkzLDE2NDU4NjMwMjUsLTE4MTMzNzQw
-OCwtNDAyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMz
-Y4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4
-OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LD
-g4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3
-Mzg4NF19
+eyJoaXN0b3J5IjpbMzA1ODMyNzYyLDE1NTQ0Mzg1OTIsLTQ5NT
+M0MDI1OSw0OTM1NDczMTMsMTk1NzMyMzg5MywxNjQ1ODYzMDI1
+LC0xODEzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMD
+IyODMwNzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMw
+OSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMT
+E1NjcxNjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUy
+NTRdfQ==
 -->
