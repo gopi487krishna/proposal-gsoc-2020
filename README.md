@@ -184,13 +184,11 @@ else{
 // If parsing header was successful get the number of bytes to skip to next extention
 auto no_of_bytes_to_skip= unknown_xtention.no_of_bytes_to_skip();
 // no_of_bytes_to_skip() is computed  as (ABS(BITPIX)*GCOUNT*(PCOUNT+NAXIS1 X NAXIS2 X NAXIS3 X....X NAXISm ))/ 8 ( 8bit byte standard )
-
+//Push unknown xtention to HDU collection.
+hdu_collection.push_back(unknown_xtention);
 // set filepos to no_of_bytes_to_skip
 // continue to next iteration
-}
-}
-}
-}
+}}}}
 ```
 
 ## Improvements with the Existing Code Base
@@ -301,11 +299,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTg2MzAyNSwtMTgxMzM3NDA4LC00MD
-I0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIy
-MTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOT
-k2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1
-NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC
-0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2
-NDgyMjE0XX0=
+eyJoaXN0b3J5IjpbLTk0MzMyNDc3OCwxNjQ1ODYzMDI1LC0xOD
+EzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMw
+NzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNz
+k1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1Njcx
+NjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLT
+E5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1
+NDE1MzZdfQ==
 -->
