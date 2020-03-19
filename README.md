@@ -204,7 +204,11 @@ auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Traverse
 ```
 **writeToFile(filename)**
 
-writeToFile() function basically writes the updated data to a new  file ( Data can be written back to original file but that can cause some problems ).  There are two ways   
+writeToFile() function basically writes the updated data to a new  file ( Data can be written back to original file but that can cause some problems ).  There are two ways to basically implement this function in fits module
+
+ - If the cards are implemented as a chunk of 80 bytes strings stored internally ( Kindly refer to Improvements with the Existing Code Base
+
+  
 
 
 
@@ -316,7 +320,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTIzNzg1OSwxOTU3MzIzODkzLDE2ND
+eyJoaXN0b3J5IjpbLTkxNTk2NDcwOCwxOTU3MzIzODkzLDE2ND
 U4NjMwMjUsLTE4MTMzNzQwOCwtNDAyNDg5NjI1LC0xNDI3MzMw
 MjE1LDEwMjI4MzA3MzUsMzY4MjYyMjExLDEyNjA2MTQ1NzcsNz
 QwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgx
