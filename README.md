@@ -295,6 +295,11 @@ Also one another advantage ( I cannot prove it as of now ) is that same kind of 
 Kindly refer to the [competency test](https://github.com/gopi487krishna/FITS_primary_header)  solution for a basic implementation of this style of parsing with parsing policy ( The value_type  is not baked into the code but is exposed by the policy class making it highly flexible )
 	
 
+## Proposed Milestones and Schedule
+
+In the time duration of 90 days ( Not exact )
+
+First 30 D
 
    
 
@@ -319,11 +324,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTM0MDI1OSw0OTM1NDczMTMsMTk1Nz
-MyMzg5MywxNjQ1ODYzMDI1LC0xODEzMzc0MDgsLTQwMjQ4OTYy
-NSwtMTQyNzMzMDIxNSwxMDIyODMwNzM1LDM2ODI2MjIxMSwxMj
-YwNjE0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OTY1Nzcx
-NjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1MDksMT
-IwMDk4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLTIzODQz
-ODM0MF19
+eyJoaXN0b3J5IjpbLTM5NTM2ODY0LC00OTUzNDAyNTksNDkzNT
+Q3MzEzLDE5NTczMjM4OTMsMTY0NTg2MzAyNSwtMTgxMzM3NDA4
+LC00MDI0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNj
+gyNjIyMTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5
+OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsOD
+gyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDcz
+ODg0XX0=
 -->
