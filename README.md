@@ -192,7 +192,12 @@ hdu_collection.push_back(unknown_xtention);
 ```
 **operator [] (int index) or operator[] (std::string hdu_name)**
 
-This function return a reference to the perticular  HDU class object that the user wants to access or make changes to.
+This function returns a **reference** to the particular  HDU class object that the user wants to access or make changes to.
+
+Usage:
+```cpp
+auto prime_header= get<prime_header>(fits[0]); // Internally { return hdu_collection[index]
+```
 
 
 ## Improvements with the Existing Code Base
@@ -303,11 +308,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ2Nzg1MzAsMTY0NTg2MzAyNSwtMT
-gxMzM3NDA4LC00MDI0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgz
-MDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMT
-c5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3
-MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC
-0xOTQ2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcw
-NTQxNTM2XX0=
+eyJoaXN0b3J5IjpbOTQzODAwOTk0LDE2NDU4NjMwMjUsLTE4MT
+MzNzQwOCwtNDAyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3
+MzUsMzY4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OT
+UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
+MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMT
+k0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0
+MTUzNl19
 -->
