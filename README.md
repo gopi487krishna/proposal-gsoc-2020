@@ -161,7 +161,9 @@ Internally the read's functions something like this ( This pseudocode is  to onl
 ```cpp
 read(){
 
-// Create an instance o
+// Create an instance of primary_header ( prime_header)
+// If parsing of primary header becomes successful check for the value of extend keyword. Else return false
+auto extention_present= get<bool>()
 
 }
 ```
@@ -274,7 +276,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTM4MTQ4NiwtMTgxMzM3NDA4LC00MD
+eyJoaXN0b3J5IjpbMTM0MjY5ODc4MywtMTgxMzM3NDA4LC00MD
 I0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIy
 MTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOT
 k2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1
