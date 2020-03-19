@@ -166,7 +166,7 @@ read(){
 hdu_collection.push_back(prime_header);
 auto extention_present= get<bool>(prime_header["EXTEND"]);
 if (extention_present){
-while( we_reach_end_of_file)//2880 byte boundary should be respected
+while( we_reach_end_of_file)/*2880 byte boundary should be respected */
 {
 // Try reading the first card on a new 2280 byte boundary ( Extentions always start on a boundary of 2880 bytes ) .
 
@@ -185,19 +185,11 @@ else{
 auto no_of_bytes_to_skip= unknown_xtention.no_of_bytes_to_skip();
 // no_of_bytes_to_skip() is computed  as (ABS(BITPIX)*GCOUNT*(PCOUNT+NAXIS1 X NAXIS2 X NAXIS3 X....X NAXISm ))/ 8 ( 8bit byte standard )
 
-set
-
+// set filepos to no_of_bytes_to_skip
+// continue to next iteration
 }
-
-
-
-
-
 }
-
-
 }
-
 }
 ```
 
@@ -309,7 +301,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODExMjQ3OSwtMTgxMzM3NDA4LC00MD
+eyJoaXN0b3J5IjpbMTY0NTg2MzAyNSwtMTgxMzM3NDA4LC00MD
 I0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIy
 MTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOT
 k2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1
