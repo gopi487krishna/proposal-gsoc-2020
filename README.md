@@ -179,8 +179,8 @@ hdu_collection.push_back(some_known_extention_header);
 }
 else{
 
-// Create an instance of unknown_extention class ( This class needs to be created in code. It can only read the header and store it and provide
-
+// Create an instance of unknown_extention class ( This class is similar to others but the only difference is that it can store only header information and tell us how many bits to skip.
+// If parsing header was si
 }
 
 
@@ -306,11 +306,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTcxNDUwMjMsLTE4MTMzNzQwOCwtND
-AyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMzY4MjYy
-MjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMT
-k5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1
-NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NC
-wtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0
-NjQ4MjIxNF19
+eyJoaXN0b3J5IjpbMTA0ODkxOCwtMTgxMzM3NDA4LC00MDI0OD
+k2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIyMTEs
+MTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOTk2NT
+c3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5
+LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC0yMz
+g0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgy
+MjE0XX0=
 -->
