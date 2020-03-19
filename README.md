@@ -169,7 +169,9 @@ if (extention_present){
 while( extention_present){
 // Try reading the first card on a new 2280 byte boundary ( Extentions always start on a boundary of 2880 bytes )
 
-// 
+// if ( 
+
+
 
 // Try reading the entire header (This can be optimized) .
 // Read the value of XTENSION keyword ( It should be present else data is corrupted so return false )
@@ -292,11 +294,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQyNTYyOTYsLTE4MTMzNzQwOCwtND
-AyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMzY4MjYy
-MjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMT
-k5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1
-NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NC
-wtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0
-NjQ4MjIxNF19
+eyJoaXN0b3J5IjpbMTQwNzI0OTE2NywtMTgxMzM3NDA4LC00MD
+I0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIy
+MTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOT
+k2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1
+NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC
+0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2
+NDgyMjE0XX0=
 -->
