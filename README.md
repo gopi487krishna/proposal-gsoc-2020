@@ -157,7 +157,7 @@ fits.writeChangesTo(filename);// How this works is explained below
 
  Now introducing the file mode  creates a host of problems in itself but is not disposable either. ( The performance of memory_mapped file is way more than that of normal fstreams Kindly consult the [competency test](https://github.com/gopi487krishna/FITS_primary_header)   solution for a benchmark result ). So in order to support multiple file modes we would have to provide a small wrapper interface that encapsulates the (fstream, memory_map, buffer ) interface and provides  same type of calls for reading data or  setting the pointers in both the interfaces ( This is actually quite easy because of the design of all three interfaces ). 
 
-Internallyt 
+Internally
 
 ## Improvements with the Existing Code Base
 
@@ -267,11 +267,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTMzNzQwOCwtNDAyNDg5NjI1LC0xND
-I3MzMwMjE1LDEwMjI4MzA3MzUsMzY4MjYyMjExLDEyNjA2MTQ1
-NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2MywxMj
-AyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5
-MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC
-0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgz
-OTA5NDU2MV19
+eyJoaXN0b3J5IjpbMTQ3MTIyNTQwLC0xODEzMzc0MDgsLTQwMj
+Q4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMwNzM1LDM2ODI2MjIx
+MSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OT
+Y1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1
+MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLT
+IzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0
+ODIyMTRdfQ==
 -->
