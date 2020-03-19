@@ -173,9 +173,13 @@ if(keyword is XTENSION and value in list_of_recognized_extentions){
 
 // Create instance of that perticular type class with file offset provided to it ( Should begin right from XTENTION so file pointer must be moved 80 bytes back )
 
-// if parsing of known extention header becomes successul push the extention header into the hdu_collection
-hdu_collection.push_back(some_known_extention_header); 
+// if parsing of known extention header becomes successul push the extention header into the hdu_collection else return false
+hdu_collection.push_back(some_known_extention_header);
+// File pointers have automatically been updated 
+}
+else{
 
+// Create an instance of unknown_extention class ( This class needs to be created in code. It can only read the header and store it and provide
 
 }
 
@@ -302,11 +306,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzE3ODUyNywtMTgxMzM3NDA4LC00MD
-I0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIy
-MTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOT
-k2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1
-NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC
-0yMzg0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2
-NDgyMjE0XX0=
+eyJoaXN0b3J5IjpbLTEwNTcxNDUwMjMsLTE4MTMzNzQwOCwtND
+AyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMzY4MjYy
+MjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMT
+k5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1
+NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NC
+wtMjM4NDM4MzQwLC0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0
+NjQ4MjIxNF19
 -->
