@@ -301,8 +301,9 @@ In the time duration of 90 days ( Not exact )
 
 May : Improving the Design of FITS module and writing internal documentation for the previous part of the project. 
 
-June :
-July  :
+June : Writing the complete external API along with its documentation and start performing testing
+
+July  : Perform benchmarks and profiling  of the new features  written and improve the hotspots 
 
    
 
@@ -327,7 +328,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTk2ODE5MCwtNDk1MzQwMjU5LDQ5Mz
+eyJoaXN0b3J5IjpbMTcwNzA5OTA5OCwtNDk1MzQwMjU5LDQ5Mz
 U0NzMxMywxOTU3MzIzODkzLDE2NDU4NjMwMjUsLTE4MTMzNzQw
 OCwtNDAyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMz
 Y4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4
