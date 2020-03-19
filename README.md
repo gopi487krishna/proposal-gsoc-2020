@@ -207,7 +207,8 @@ auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Traverse
 
 writeToFile() function basically writes the updated data to a new  file ( Data can be written back to original file but that can cause some problems ).  There are two ways to basically implement this function in fits module
 
- - If the cards are implemented as a chunk of 80 bytes strings stored internally ( Kindly refer to **Improvements with the Existing Code Base** section below to find out why it is bad ) then writing becomes pretty easy. Iterate over the hdu_collection and for each HDU serialize the header and data as string and write into the file( No problems with unknown extentions as unknown_extention class objects already sto a serialized version of data for unk
+ - If the cards are implemented as a chunk of 80 bytes strings stored internally ( Kindly refer to **Improvements with the Existing Code Base** section below to find out why it is bad ) then writing becomes pretty easy. Iterate over the hdu_collection and for each HDU serialize the header and data as string and write into the file( No problems with unknown extentions as unknown_extention class objects already store a serialized version of data for unknown extensions). 
+ - If the cards are implemented as a
 
   
 
@@ -321,11 +322,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzQwNzQ1NiwxOTU3MzIzODkzLDE2ND
-U4NjMwMjUsLTE4MTMzNzQwOCwtNDAyNDg5NjI1LC0xNDI3MzMw
-MjE1LDEwMjI4MzA3MzUsMzY4MjYyMjExLDEyNjA2MTQ1NzcsNz
-QwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgx
-MDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5MTE4LD
-QwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC0xMDE2
-NTkyMTc2XX0=
+eyJoaXN0b3J5IjpbLTkwMzQ3MjU1LDE5NTczMjM4OTMsMTY0NT
+g2MzAyNSwtMTgxMzM3NDA4LC00MDI0ODk2MjUsLTE0MjczMzAy
+MTUsMTAyMjgzMDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3Nyw3ND
+AwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEw
+NDIsLTExNTY3MTYxNjQsODgyNjU1NTA5LDEyMDA5ODkxMTgsND
+A1NzU1MjU0LC0xOTQ2NDczODg0LC0yMzg0MzgzNDAsLTEwMTY1
+OTIxNzZdfQ==
 -->
