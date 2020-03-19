@@ -162,11 +162,11 @@ Internally the read's functions something like this ( This pseudocode is  to onl
 read(){
 
 // Create an instance of primary_header ( prime_header)
-// If parsing of primary header becomes successful push the prime_header object into a vector of HDU and check for the value of extend keyword. Else return false
+// If parsing of primary header becomes successful push the prime_header object into a vector of HDUs and check for the value of extend keyword. Else return false
 hdu_collection.push_back(prime_header);
 auto extention_present= get<bool>(prime_header["EXTEND"]);
 if (extention_present){
-while( extention_present){
+while( we_reach_end_of_file /*2880 byte boundary shou*/){
 // Try reading the first card on a new 2280 byte boundary ( Extentions always start on a boundary of 2880 bytes ) .
 
 if(keyword is XTENSION and value in list_of_recognized_extentions){
@@ -180,14 +180,12 @@ hdu_collection.push_back(some_known_extention_header);
 else{
 
 // Create an instance of unknown_extention class ( This class is similar to others but the only difference is that it can store only header information and tell us how many bits to skip.
-// If parsing header was si
+// If parsing header was successful get the number of bits to skip to next extention 
+
 }
 
 
 
-// Try reading the entire header (This can be optimized) .
-// Read the value of XTENSION keyword ( It should be present else data is corrupted so return false )
-auto extention_type=get<
 
 
 }
@@ -306,11 +304,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODkxOCwtMTgxMzM3NDA4LC00MDI0OD
-k2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIyMTEs
-MTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOTk2NT
-c3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1NTA5
-LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDczODg0LC0yMz
-g0MzgzNDAsLTEwMTY1OTIxNzYsNzcwNTQxNTM2LC0xMzQ2NDgy
-MjE0XX0=
+eyJoaXN0b3J5IjpbNjE5MTI2NDE1LC0xODEzMzc0MDgsLTQwMj
+Q4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMwNzM1LDM2ODI2MjIx
+MSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OT
+Y1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1
+MDksMTIwMDk4OTExOCw0MDU3NTUyNTQsLTE5NDY0NzM4ODQsLT
+IzODQzODM0MCwtMTAxNjU5MjE3Niw3NzA1NDE1MzYsLTEzNDY0
+ODIyMTRdfQ==
 -->
