@@ -303,7 +303,7 @@ May : Improving the Design of FITS module and writing internal documentation for
 
 June : Writing the complete external API along with its documentation and start performing testing
 
-July  : Perform benchmarks and profiling  of the new features  written and improve the hotspots 
+July  : Perform benchmarks and profiling  of the new features  written and improve the hotspots region with more optimized code. Along with that, full library testing will take place by testing the code with a significant number of FITS files ( both with or without conformance to the FITS standard ) 
 
    
 
@@ -328,11 +328,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzA5OTA5OCwtNDk1MzQwMjU5LDQ5Mz
-U0NzMxMywxOTU3MzIzODkzLDE2NDU4NjMwMjUsLTE4MTMzNzQw
-OCwtNDAyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMz
-Y4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4
-OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LD
-g4MjY1NTUwOSwxMjAwOTg5MTE4LDQwNTc1NTI1NCwtMTk0NjQ3
-Mzg4NF19
+eyJoaXN0b3J5IjpbNjkzNDU0MzA0LC00OTUzNDAyNTksNDkzNT
+Q3MzEzLDE5NTczMjM4OTMsMTY0NTg2MzAyNSwtMTgxMzM3NDA4
+LC00MDI0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNj
+gyNjIyMTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5
+OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsOD
+gyNjU1NTA5LDEyMDA5ODkxMTgsNDA1NzU1MjU0LC0xOTQ2NDcz
+ODg0XX0=
 -->
