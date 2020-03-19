@@ -155,7 +155,9 @@ fits.writeChangesTo(filename);// How this works is explained below
 
 **read()** : The read function takes a filename and file mode as argument and internally calls each of these classes ( ascii_table, binary_table, primary_hdu,image_extention ) to parse the fits file.
 
- Now introducing the file mode  creates a host of problems in itself but is not disposable either. ( The performance of memory_mapped file is way more than that of normal fstreams Kindly consult the competency test solution for a benchmark result ). So in order to support multiple file modes we would have to provide a small wrapper interface that encapsulates the (fstream, memory_map, buffer ) interface and provides  same type of calls for reading data or  setting the pointers in both the interfaces ( This is actually quite easy and
+ Now introducing the file mode  creates a host of problems in itself but is not disposable either. ( The performance of memory_mapped file is way more than that of normal fstreams Kindly consult the [competency test](https://github.com/gopi487krishna/FITS_primary_header)   solution for a benchmark result ). So in order to support multiple file modes we would have to provide a small wrapper interface that encapsulates the (fstream, memory_map, buffer ) interface and provides  same type of calls for reading data or  setting the pointers in both the interfaces ( This is actually quite easy because of the design of all three interfaces ). 
+
+Internallyt 
 
 ## Improvements with the Existing Code Base
 
@@ -265,11 +267,11 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMD
-IyODMwNzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMw
-OSwxNzk1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMT
-E1NjcxNjE2NCw4ODI2NTU1MDksMTIwMDk4OTExOCw0MDU3NTUy
-NTQsLTE5NDY0NzM4ODQsLTIzODQzODM0MCwtMTAxNjU5MjE3Ni
-w3NzA1NDE1MzYsLTEzNDY0ODIyMTQsLTE4MzkwOTQ1NjEsLTg4
-NzUxMzE5NF19
+eyJoaXN0b3J5IjpbLTE4MTMzNzQwOCwtNDAyNDg5NjI1LC0xND
+I3MzMwMjE1LDEwMjI4MzA3MzUsMzY4MjYyMjExLDEyNjA2MTQ1
+NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMTk5NjU3NzE2MywxMj
+AyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1NTUwOSwxMjAwOTg5
+MTE4LDQwNTc1NTI1NCwtMTk0NjQ3Mzg4NCwtMjM4NDM4MzQwLC
+0xMDE2NTkyMTc2LDc3MDU0MTUzNiwtMTM0NjQ4MjIxNCwtMTgz
+OTA5NDU2MV19
 -->
