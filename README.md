@@ -167,9 +167,14 @@ hdu_collection.push_back(prime_header);
 auto extention_present= get<bool>(prime_header["EXTEND"]);
 if (extention_present){
 while( extention_present){
-// Try reading the first card on a new 2280 byte boundary ( Extentions always start on a boundary of 2880 bytes )
+// Try reading the first card on a new 2280 byte boundary ( Extentions always start on a boundary of 2880 bytes ) .
 
-// if ( 
+if(keyword is XTENSION and value in list_of_recognized_extentions){
+
+// Create instance 
+
+
+}
 
 
 
@@ -294,7 +299,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzI0OTE2NywtMTgxMzM3NDA4LC00MD
+eyJoaXN0b3J5IjpbMTU0OTA3Mjk3MCwtMTgxMzM3NDA4LC00MD
 I0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIy
 MTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOT
 k2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1
