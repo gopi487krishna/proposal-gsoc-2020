@@ -171,7 +171,8 @@ while( extention_present){
 
 if(keyword is XTENSION and value in list_of_recognized_extentions){
 
-// Create instance 
+// Create instance of that perticular type class with file offset provided to it ( Should begin right from XTENTION so file pointer must be moved 80 bytes back )
+// 
 
 
 }
@@ -299,7 +300,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTA3Mjk3MCwtMTgxMzM3NDA4LC00MD
+eyJoaXN0b3J5IjpbLTE3MDM4MzUyMywtMTgxMzM3NDA4LC00MD
 I0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDczNSwzNjgyNjIy
 MTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NTMwNzg5OSwxOT
 k2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYxNjQsODgyNjU1
