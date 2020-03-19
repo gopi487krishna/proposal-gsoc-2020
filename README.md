@@ -208,7 +208,7 @@ auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Traverse
 writeToFile() function basically writes the updated data to a new  file ( Data can be written back to original file but that can cause some problems ).  There are two ways to basically implement this function in fits module
 
  - If the cards are implemented as a chunk of 80 bytes strings stored internally ( Kindly refer to **Improvements with the Existing Code Base** section below to find out why it is bad ) then writing becomes pretty easy. Iterate over the hdu_collection and for each HDU serialize the header and data as string and write into the file( No problems with unknown extentions as unknown_extention class objects already store a serialized version of data for unknown extensions). 
- - If the cards are implemented as  keyword and value based  then the changes of each hdu are recorded in their respective scheduled_vector  ( stores offset with card that is prepared as a chunk of 80 bytes or serialized ) . Now the original file is opened again and data is written byte by byte. If a particular offset from any of the HDU scheduled vector occurs then that data is written instead of copying down the content and then 
+ - If the cards are implemented as  keyword and value based  then the changes of each hdu are recorded in their respective scheduled_vector  ( stores offset with card that is prepared as a chunk of 80 bytes or serialized string for data ) . Now the original file is opened again and data is written byte by byte. If a particular offset from any of the HDU scheduled vector occurs then that data is written instead of copying down the content and then 
 
   
 
@@ -322,7 +322,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4Nzk3NjYwLDE5NTczMjM4OTMsMTY0NT
+eyJoaXN0b3J5IjpbOTI5NTEwMTU2LDE5NTczMjM4OTMsMTY0NT
 g2MzAyNSwtMTgxMzM3NDA4LC00MDI0ODk2MjUsLTE0MjczMzAy
 MTUsMTAyMjgzMDczNSwzNjgyNjIyMTEsMTI2MDYxNDU3Nyw3ND
 AwMzkzMDksMTc5NTMwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEw
