@@ -167,7 +167,8 @@ hdu_collection.push_back(prime_header);
 auto extention_present= get<bool>(prime_header["EXTEND"]);
 if (extention_present){
 while( extention_present){
-// Try reading the entire header
+// Try reading the entire header (This can be optimized)
+// Read the value of XTENSION keyword ( It should be present else data is corrupted so return false )
 
 
 }
@@ -286,7 +287,7 @@ Just to summarize the Fits Reader API can :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTEwOTM5ODAsLTE4MTMzNzQwOCwtND
+eyJoaXN0b3J5IjpbLTE0NDYxMzQ5NDYsLTE4MTMzNzQwOCwtND
 AyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3MzUsMzY4MjYy
 MjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OTUzMDc4OTksMT
 k5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2MTY0LDg4MjY1
