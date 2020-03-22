@@ -214,7 +214,8 @@ auto& prime_header= get<prime_header>(fits[0]); // Internally { return hdu_colle
 // Now user can do anything with this instance
 // OR
 
-auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Traverse over the entire vector and get the names of each HDU stored and simultaneously check if the header is the one which we want ( The cost can be reduced by using find_if with a vistior pattern and a lamda to get HDU name  }
+auto ascii_table= get<ascii_table>(fits["ascii_table"]);// Internally { Traverse over the entire vector and get the names of
+//each HDU stored and simultaneously check if the header is the one which we want ( The cost can be reduced by using find_if with a vistior pattern and a lamda to get HDU name  }
 ```
 **writeToFile(filename)**
 
@@ -338,7 +339,7 @@ Just to summarize the Fits Reader API can :
 > Some parts of the library have not been optimized completely but will be optimized out in the next revision
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjQ5NTY1MCwxMTU4MzkzMDc3LDgzMj
+eyJoaXN0b3J5IjpbLTU5MDI5MDQ5MCwxMTU4MzkzMDc3LDgzMj
 U4MTI1NCwzMDU4MzI3NjIsMTU1NDQzODU5MiwtNDk1MzQwMjU5
 LDQ5MzU0NzMxMywxOTU3MzIzODkzLDE2NDU4NjMwMjUsLTE4MT
 MzNzQwOCwtNDAyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3
