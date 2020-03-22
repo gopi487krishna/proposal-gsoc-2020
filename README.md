@@ -172,7 +172,8 @@ Internally the read's functions something like this ( This pseudocode is  to onl
 read(){
 
 // Create an instance of primary_header ( prime_header)
-// If parsing of primary header becomes successful push the prime_header object into a vector of HDUs and check for the value of extend keyword. Else return false
+// If parsing of primary header becomes successful push the prime_header object into a vector of HDUs and check for the value of
+// extend keyword. Else return false
 hdu_collection.push_back(prime_header);
 auto extention_present= get<bool>(prime_header["EXTEND"]);
 if (extention_present){
@@ -335,11 +336,11 @@ Just to summarize the Fits Reader API can :
 > Some parts of the library have not been optimized completely but will be optimized out in the next revision
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODM5MzA3Nyw4MzI1ODEyNTQsMzA1OD
-MyNzYyLDE1NTQ0Mzg1OTIsLTQ5NTM0MDI1OSw0OTM1NDczMTMs
-MTk1NzMyMzg5MywxNjQ1ODYzMDI1LC0xODEzMzc0MDgsLTQwMj
-Q4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMwNzM1LDM2ODI2MjIx
-MSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNzk1MzA3ODk5LDE5OT
-Y1NzcxNjMsMTIwMjI4MTA0MiwtMTE1NjcxNjE2NCw4ODI2NTU1
-MDldfQ==
+eyJoaXN0b3J5IjpbLTE0NDQwOTc1OTcsMTE1ODM5MzA3Nyw4Mz
+I1ODEyNTQsMzA1ODMyNzYyLDE1NTQ0Mzg1OTIsLTQ5NTM0MDI1
+OSw0OTM1NDczMTMsMTk1NzMyMzg5MywxNjQ1ODYzMDI1LC0xOD
+EzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMw
+NzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNz
+k1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1Njcx
+NjE2NF19
 -->
