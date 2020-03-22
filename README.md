@@ -196,7 +196,7 @@ else{
 //only header information and tell us how many bits to skip.
 // If parsing header was successful get the number of bytes to skip to next extention
 auto no_of_bytes_to_skip= unknown_xtention.no_of_bytes_to_skip();
-// no_of_bytes_to_skip() is computed  as (ABS(BITPIX)*GCOUNT*(PCOUNT+NAXIS1 X NAXIS2 X NAXIS3 X....X NAXISm ))/ 8 ( 8bit byte standard )
+// no_of_bytes_to_skip() is computed  as (ABS(BITPIX)*GCOUNT*(PCOUNT+NAXIS1 X NAXIS2 X NAXIS3 X....X NAXISm ))/ 8 ( 8bit byte)
 //Push unknown xtention to HDU collection.
 // Based on number of bytes to skip store the data array as a string buffer only
 hdu_collection.push_back(unknown_xtention);
@@ -338,11 +338,11 @@ Just to summarize the Fits Reader API can :
 > Some parts of the library have not been optimized completely but will be optimized out in the next revision
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MTI5MDU1LDExNTgzOTMwNzcsODMyNT
-gxMjU0LDMwNTgzMjc2MiwxNTU0NDM4NTkyLC00OTUzNDAyNTks
-NDkzNTQ3MzEzLDE5NTczMjM4OTMsMTY0NTg2MzAyNSwtMTgxMz
-M3NDA4LC00MDI0ODk2MjUsLTE0MjczMzAyMTUsMTAyMjgzMDcz
-NSwzNjgyNjIyMTEsMTI2MDYxNDU3Nyw3NDAwMzkzMDksMTc5NT
-MwNzg5OSwxOTk2NTc3MTYzLDEyMDIyODEwNDIsLTExNTY3MTYx
-NjRdfQ==
+eyJoaXN0b3J5IjpbMTU2MjQ5NTY1MCwxMTU4MzkzMDc3LDgzMj
+U4MTI1NCwzMDU4MzI3NjIsMTU1NDQzODU5MiwtNDk1MzQwMjU5
+LDQ5MzU0NzMxMywxOTU3MzIzODkzLDE2NDU4NjMwMjUsLTE4MT
+MzNzQwOCwtNDAyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3
+MzUsMzY4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OT
+UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
+MTY0XX0=
 -->
