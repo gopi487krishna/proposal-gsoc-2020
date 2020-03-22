@@ -183,7 +183,8 @@ while( we_reach_end_of_file)/*2880 byte boundary should be respected */
 
 if(keyword is XTENSION and value in list_of_recognized_extentions){
 
-// Create instance of that perticular type class with file offset provided to it ( Should begin right from XTENTION so file pointer must be moved 80 bytes back )
+// Create instance of that perticular type class with file offset provided to it ( Should begin right from XTENTION so file
+// pointer must be moved 80 bytes back )
 
 // if parsing of known extention header becomes successul push the extention header into the hdu_collection else return false
 hdu_collection.push_back(some_known_extention_header);
@@ -336,11 +337,11 @@ Just to summarize the Fits Reader API can :
 > Some parts of the library have not been optimized completely but will be optimized out in the next revision
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQwOTc1OTcsMTE1ODM5MzA3Nyw4Mz
-I1ODEyNTQsMzA1ODMyNzYyLDE1NTQ0Mzg1OTIsLTQ5NTM0MDI1
-OSw0OTM1NDczMTMsMTk1NzMyMzg5MywxNjQ1ODYzMDI1LC0xOD
-EzMzc0MDgsLTQwMjQ4OTYyNSwtMTQyNzMzMDIxNSwxMDIyODMw
-NzM1LDM2ODI2MjIxMSwxMjYwNjE0NTc3LDc0MDAzOTMwOSwxNz
-k1MzA3ODk5LDE5OTY1NzcxNjMsMTIwMjI4MTA0MiwtMTE1Njcx
-NjE2NF19
+eyJoaXN0b3J5IjpbMTc0MjU1OTQxMywxMTU4MzkzMDc3LDgzMj
+U4MTI1NCwzMDU4MzI3NjIsMTU1NDQzODU5MiwtNDk1MzQwMjU5
+LDQ5MzU0NzMxMywxOTU3MzIzODkzLDE2NDU4NjMwMjUsLTE4MT
+MzNzQwOCwtNDAyNDg5NjI1LC0xNDI3MzMwMjE1LDEwMjI4MzA3
+MzUsMzY4MjYyMjExLDEyNjA2MTQ1NzcsNzQwMDM5MzA5LDE3OT
+UzMDc4OTksMTk5NjU3NzE2MywxMjAyMjgxMDQyLC0xMTU2NzE2
+MTY0XX0=
 -->
