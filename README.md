@@ -1,5 +1,5 @@
 
-# boost.astronomy.FITS_File_Handling
+# boost.astronomy.FITS_Module
 **Name** : Gopi Krishna Menon
 
 **College** : Dronacharya College of Engineering, Gurgaon, Haryana
